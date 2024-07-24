@@ -5,52 +5,203 @@
       "altText": "Dr. Agile Methew",
       "name": "Dr. Agile Methew",
       "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ECE)",
-      "email": "akndskn",
-      "githubUrl": "sjef",
-      "linkedinUrl": "nfjksenf",
-      "phone": "afnkesn"
+      "email": "",
+      "githubUrl": "",
+      "linkedinUrl": "",
+      "phone": ""
+    },
+    {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "MR. BIKRAMJIT CHOUDHARY",
+      "name": "MR. BIKRAMJIT CHOUDHARY",
+      "role": "FACULTY MEMBER(CSE)",
+      "email": "b.choudhury@cit.ac.in",
+      "githubUrl": "https://github.com/janedoe",
+      "linkedinUrl": "https://www.linkedin.com/in/bikramjit-choudhury-a75146168/",
+      "phone": "+91-8638005168"
+    },
+    {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "DR. BHASKAR SAHA",
+      "name": "DR. BHASKAR SAHA",
+      "role": "FACULTY MEMBER(MCD)",
+      "email": "b.saha@cit.ac.in",
+      "githubUrl": "https://github.com/janedoe",
+      "linkedinUrl": "https://www.linkedin.com/in/dr-bhaskar-saha-7920a7a6/",
+      "phone": "+91-9435560863"
+    },
+    {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "SHAFI KAMAL RAHMAN",
+      "name": "SHAFI KAMAL RAHMAN",
+      "role": "FACULTY MEMBER(CE)",
+      "email": "sk.rahman@cit.ac.in",
+      "githubUrl": "https://github.com/janedoe",
+      "linkedinUrl": "https://www.linkedin.com/in/dr-bhaskar-saha-7920a7a6/",
+      "phone": "+91 9957000980"
     },
     {
       "imageUrl": "/dr-agile-methew.jpg",
       "altText": "DR. RAJESH KONDAREDDY",
-      "name": "Prof. Jane Doe",
-      "role": "DEPARTMENT HEAD | FACULTY MEMBER(CS)",
-      "email": "jdoe@example.com",
+      "name": "DR. RAJESH KONDAREDDY",
+      "role": "FACULTY MEMBER(IE)",
+      "email": " r.kondareddy@cit.ac.in",
       "githubUrl": "https://github.com/janedoe",
-      "linkedinUrl": "https://linkedin.com/in/janedoe",
-      "phone": "1234567890"
+      "linkedinUrl": "https://www.linkedin.com/in/rajesh-kondareddy-a2082a92/",
+      "phone": "+91-7896863811"
     },
     {
       "imageUrl": "/dr-agile-methew.jpg",
-      "altText": "DR. RAJESH KONDAREDDY",
-      "name": "Prof. Jane Doe",
-      "role": "DEPARTMENT HEAD | FACULTY MEMBER(CS)",
-      "email": "jdoe@example.com",
+      "altText": "MR. ABHIJIT DAS",
+      "name": "MR. ABHIJIT DAS",
+      "role": "FACULTY MEMBER(FET)",
+      "email": "a.das@cit.ac.in",
       "githubUrl": "https://github.com/janedoe",
-      "linkedinUrl": "https://linkedin.com/in/janedoe",
-      "phone": "1234567890"
+      "linkedinUrl": "https://www.linkedin.com/in/abhijit-das-a031703a/",
+      "phone": "+91-7399811494"
     }
   ],
   "StudentCoordinators": [
     {
       "imageUrl": "/student-alex.jpg",
-      "altText": "Alex Johnson",
-      "name": "Alex Johnson",
-      "role": "STUDENT COORDINATOR | COMPUTER SCIENCE",
+      "altText": "Sheikh Marriah Rukhser",
+      "name": "Sheikh Marriah Rukhser",
+      "role": "Head Coordinator | CSE",
       "email": "alex@example.com",
       "githubUrl": "https://github.com/alexjohnson",
-      "linkedinUrl": "https://linkedin.com/in/alexjohnson",
-      "phone": "9876543210"
+      "linkedinUrl": "http://linkedin.com/in/marriah-sheikh-b8bb4023b",
+      "phone": "9957987888"
     },
     {
       "imageUrl": "/student-emily.jpg",
-      "altText": "Emily Clark",
-      "name": "Emily Clark",
-      "role": "STUDENT COORDINATOR | ELECTRONICS AND COMMUNICATION",
+      "altText": "Atul Aditya",
+      "name": "Atul Aditya",
+      "role": "STUDENT COORDINATOR-1 | CSE ",
       "email": "emily@example.com",
       "githubUrl": "https://github.com/emilyclark",
-      "linkedinUrl": "https://linkedin.com/in/emilyclark",
-      "phone": "0123456789"
+      "linkedinUrl": "https://www.linkedin.com/in/atul-aditya-151a78267",
+      "phone": "6206721106"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Subhash Wary",
+      "name": "Subhash Wary",
+      "role": "STUDENT COORDINATOR-2 | CSE",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/subhash-wary/",
+      "phone": "8812013021"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Jeffry Basumatary",
+      "name": "Jeffry Basumatary",
+      "role": "Event Manager  | ECE",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://linkedin.com/in/alexjohnson",
+      "phone": "9366854875"
+    },
+
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Ushna Basumatary",
+      "name": "Ushna Basumatary",
+      "role": "Event Anchor  | CE",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://linkedin.com/in/alexjohnson",
+      "phone": "8822060876"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Gomasa Nageshwari",
+      "name": "Gomasa Nageshwari ",
+      "role": " STUDENT COORDINATOR-1 | ECE ",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/nageshwari-gomasa-01a031238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "9392589250"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Prashant Chettri",
+      "name": "Prashant Chettri",
+      "role": " STUDENT COORDINATOR-2| ECE ",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "",
+      "phone": "8974058513"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Shamim shahinur rahman",
+      "name": "Shamim shahinur rahman",
+      "role": "STUDENT COORDINATOR-1 | CE",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "",
+      "phone": "9706553977"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Subhadeep Das",
+      "name": "Subhadeep Das",
+      "role": "STUDENT COORDINATOR-2| CE ",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/subhadeepsdas",
+      "phone": "8134005926"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Akanksha Saha",
+      "name": "Akanksha Saha",
+      "role": " STUDENT COORDINATOR-1| IE ",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/akanksha-saha-95b2a2284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "8876963106"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Puja Kumari ",
+      "name": "Puja Kumari",
+      "role": "STUDENT COORDINATOR-1| FET",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/puja-kumari-793196206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "6299872429"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Puja Kumari ",
+      "name": "Puja Kumari",
+      "role": "STUDENT COORDINATOR-1| FET",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/puja-kumari-793196206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "6299872429"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Bhargab Sarma ",
+      "name": "Bhargab Sarma",
+      "role": "STUDENT COORDINATOR-2| FET",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/bhargab-sarma-26a82a317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "7099766559"
+    },
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Adithyan K R",
+      "name": "Adithyan K R",
+      "role": "STUDENT COORDINATOR-1| MCD",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://www.linkedin.com/in/bhargab-sarma-26a82a317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "7034487061"
     }
   ]
 }
