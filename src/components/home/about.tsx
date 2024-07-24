@@ -1,10 +1,10 @@
 export default function AboutSection() {
   return (
     <div className="flex flex-col items-center p-5">
-      <h3 className="text-center text-3xl font-semibold">
+      <h3 className="text-center text-2xl sm:text-3xl font-semibold">
         About Central Institute of Technology Kokrajhar
       </h3>
-      <h4 className="text-xl text-blue-600">
+      <h4 className="text-lg sm:text-xl text-blue-600">
         (A Deemed-to-be-university under MoE, Govt. of India)
       </h4>
       <div className="space-y-3 px-5 py-2 mt-3 bg-slate-100 rounded-md font-semibold">

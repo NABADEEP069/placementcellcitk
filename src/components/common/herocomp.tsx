@@ -1,13 +1,15 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { FaFileAlt, FaGithub } from "react-icons/fa";
-import { FaDownload, FaLinkedin } from "react-icons/fa6";
+import { FaDownload, FaUserPlus } from "react-icons/fa";
+import RecruitmentForm from "../home/recruitmentform";
 
 const images = ["/test/one.jpg", "/test/two.jpg", "/test/three.jpg"];
 
 export default function HeroComp() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [showForm, setShowForm] = useState(false); // Step 1: State to control visibility
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % images.length);
@@ -15,6 +17,7 @@ export default function HeroComp() {
 
     return () => clearInterval(interval);
   }, []);
+
   return (
     <section
       className="relative overflow-hidden text-white"
@@ -43,14 +46,21 @@ export default function HeroComp() {
         </div>
       </div>
       <div className="w-full h-12 absolute bottom-28 flex justify-center items-center gap-10 text-sm font-bold">
-        <button className="bg-primary px-5 py-2 rounded-md border-2 uppercase hover:scale-105 duration-300 bg-opacity-90">
-          Recruitment Drive Form
+        <button
+          className="bg-primary px-5 py-2 rounded-md border-2 uppercase hover:bg-white hover:text-black hover:border-primary hover:scale-105 duration-300 bg-opacity-90 flex items-center gap-2"
+          onClick={() => setShowForm(!showForm)} // Step 2: Toggle form visibility
+        >
+          <FaUserPlus className="text-xl" />
+          Recruitment
         </button>
         <button className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300">
           <FaDownload />
           Brochure
         </button>
       </div>
+      {showForm && (
+        <RecruitmentForm setShowRecruitmentForm={setShowForm} />
+      )}{" "}
     </section>
   );
 }

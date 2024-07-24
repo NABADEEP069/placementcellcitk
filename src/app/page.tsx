@@ -5,7 +5,7 @@ import CardOne from "@/components/home/cardone";
 
 export default function Home() {
   return (
-    <main className="min-h-screen pb-2">
+    <main className="min-h-screen">
       <HeroComp />
       <AboutSection />
       <div className="bg-gradient-to-br from-teal-300 to-blue-300 py-5 space-y-5">

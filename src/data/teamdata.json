@@ -1,0 +1,56 @@
+{
+  "TPOAndFacultyMembers": [
+    {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "Dr. Agile Methew",
+      "name": "Dr. Agile Methew",
+      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ECE)",
+      "email": "akndskn",
+      "githubUrl": "sjef",
+      "linkedinUrl": "nfjksenf",
+      "phone": "afnkesn"
+    },
+    {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "DR. RAJESH KONDAREDDY",
+      "name": "Prof. Jane Doe",
+      "role": "DEPARTMENT HEAD | FACULTY MEMBER(CS)",
+      "email": "jdoe@example.com",
+      "githubUrl": "https://github.com/janedoe",
+      "linkedinUrl": "https://linkedin.com/in/janedoe",
+      "phone": "1234567890"
+    },
+    {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "DR. RAJESH KONDAREDDY",
+      "name": "Prof. Jane Doe",
+      "role": "DEPARTMENT HEAD | FACULTY MEMBER(CS)",
+      "email": "jdoe@example.com",
+      "githubUrl": "https://github.com/janedoe",
+      "linkedinUrl": "https://linkedin.com/in/janedoe",
+      "phone": "1234567890"
+    }
+  ],
+  "StudentCoordinators": [
+    {
+      "imageUrl": "/student-alex.jpg",
+      "altText": "Alex Johnson",
+      "name": "Alex Johnson",
+      "role": "STUDENT COORDINATOR | COMPUTER SCIENCE",
+      "email": "alex@example.com",
+      "githubUrl": "https://github.com/alexjohnson",
+      "linkedinUrl": "https://linkedin.com/in/alexjohnson",
+      "phone": "9876543210"
+    },
+    {
+      "imageUrl": "/student-emily.jpg",
+      "altText": "Emily Clark",
+      "name": "Emily Clark",
+      "role": "STUDENT COORDINATOR | ELECTRONICS AND COMMUNICATION",
+      "email": "emily@example.com",
+      "githubUrl": "https://github.com/emilyclark",
+      "linkedinUrl": "https://linkedin.com/in/emilyclark",
+      "phone": "0123456789"
+    }
+  ]
+}

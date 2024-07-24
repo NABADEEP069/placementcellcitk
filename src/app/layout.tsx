@@ -21,10 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NextTopLoader
-          color="#30EEFC"
+          color="#98F5F9"
           speed={500}
           showSpinner={false}
-          height={2}
+          height={3}
         />
         <Header />
         {children}

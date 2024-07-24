@@ -22,10 +22,6 @@ const tabs = [
         path: "/courses",
       },
       {
-        name: "Placement statistics",
-        path: "/placement-statistics",
-      },
-      {
         name: "Course Strength",
         path: "/course-strength",
       },
@@ -76,11 +72,11 @@ const tabs = [
       },
       {
         name: "How to Reach",
-        path: "/contact",
+        path: "/reach",
       },
       {
         name: "Facilities",
-        path: "/contact",
+        path: "/facilities",
       },
     ],
   },
@@ -91,7 +87,7 @@ export default function Header() {
   const [hoveredTab, setHoveredTab] = useState<number | null>(null);
 
   return (
-    <header className="h-14 sticky top-0 flex justify-between items-center px-10 z-50 bg-primary text-white shadow-2xl">
+    <header className="h-14 sticky top-0 sm:flex justify-between items-center px-10 z-50 bg-primary text-white shadow-2xl">
       {/* <div> */}
       <Link href={"/"} className="flex gap-1 items-center h-full">
         <div className="h-full p-1">
