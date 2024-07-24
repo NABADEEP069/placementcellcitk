@@ -9,10 +9,10 @@ export default function Page() {
 
   // Function to determine button style based on active component
   const getButtonClass = (componentName: string) => {
-    return `text-left w-full py-2 px-4 transition-colors duration-150 uppercase border-l-4  ${
+    return `text-left w-full py-2 px-4 transition-colors duration-150 uppercase border-l-4 rounded-full  ${
       activeComponent === componentName
         ? "text-primary font-bold  border-primary"
-        : "hover:text-primary hover:text-white border-transparent"
+        : "hover:text-primary hover:font-semibold border-transparent"
     }`;
   };
 

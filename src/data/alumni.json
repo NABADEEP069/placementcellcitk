@@ -1,0 +1,20 @@
+[
+  {
+    "imageUrl": "/dean.jpg",
+    "altText": "Profile",
+    "name": "John Doe",
+    "description": "This is a brief description of the card. It can be extended to include more details as needed."
+  },
+  {
+    "imageUrl": "/jane.jpg",
+    "altText": "Profile",
+    "name": "Jane Doe",
+    "description": "Jane's description goes here. It can be extended to include more details as needed."
+  },
+  {
+    "imageUrl": "/alex.jpg",
+    "altText": "Profile",
+    "name": "Alex Smith",
+    "description": "Alex's brief description. It can be extended to include more details as needed."
+  }
+]

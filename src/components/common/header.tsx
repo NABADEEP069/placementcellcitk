@@ -42,7 +42,7 @@ const tabs = [
     dropdown: [
       {
         name: "Why CITK",
-        path: "/why-citk",
+        path: "/whycitk",
       },
       {
         name: "Demographics",
