@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* Author: Debanand Singha */}
       <body className={inter.className}>
         <NextTopLoader
           color="#98F5F9"
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <div style={{ display: "none" }}>Author: Debanand Singha (CSE)</div>
       </body>
     </html>
   );
