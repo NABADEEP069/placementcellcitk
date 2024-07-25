@@ -50,7 +50,7 @@ const tabs = [
       },
       {
         name: "Technical Clubs",
-        path: "/technical-clubs",
+        path: "/clubs",
       },
       {
         name: "Alumni",
