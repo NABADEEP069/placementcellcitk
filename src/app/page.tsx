@@ -2,12 +2,14 @@ import VisionCard from "@/components/common/card";
 import HeroComp from "@/components/common/herocomp";
 import AboutSection from "@/components/home/about";
 import CardOne from "@/components/home/cardone";
+import ImageCarousel from "@/components/home/recentcompany";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <HeroComp />
       <AboutSection />
+      <ImageCarousel />
       <div className="bg-gradient-to-br from-teal-300 to-blue-300 py-5 space-y-5">
         <VisionCard
           title="Our Vision"

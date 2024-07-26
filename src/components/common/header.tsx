@@ -114,7 +114,7 @@ export default function Header() {
               className={`${
                 pathname === tab.path
                   ? "text-white"
-                  : "text-blue-200 hover:text-white duration-300"
+                  : "text-slate-200 hover:text-white duration-300"
               } flex justify-center relative duration-500 font-semibold uppercase cursor-pointe py-2`}
             >
               <Link href={tab.path} className="">
@@ -124,10 +124,10 @@ export default function Header() {
                 </div>
               </Link>
               {tab.dropdown && hoveredTab === index && (
-                <div className="w-48 absolute top-8 bg-[#b7e2f2] text-slate-700 text-sm font-semibold rounded-md overflow-hidden shadow-xl p-1">
+                <div className="w-48 absolute top-8 bg-slate-100 text-slate-700 text-sm font-semibold rounded-md overflow-hidden shadow-xl p-1">
                   {tab.dropdown.map((dropdownItem, dropdownIndex) => (
                     <Link href={dropdownItem.path} key={dropdownIndex}>
-                      <span className="block px-1 py-1 hover:bg-[#5ebfe2]  rounded-md hover:font-bold duration-300">
+                      <span className="block px-1 py-1 hover:bg-slate-300  rounded-md hover:font-bold duration-300">
                         {dropdownItem.name}
                       </span>
                     </Link>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGlobe } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaGlobe, FaLinkedin } from "react-icons/fa";
 
 const quicklinks = [
   {
@@ -41,31 +41,43 @@ const officialLinks = [
 
 const clubLinks = [
   {
-    name: "test",
+    name: "Cyber X Secure",
+    link: "https://sites.google.com/cit.ac.in/cyberxsecureclub/home?authuser=0",
+  },
+  {
+    name: "AI",
     link: "https://cit.ac.in",
   },
   {
-    name: "CITK",
+    name: "Robotics",
     link: "https://cit.ac.in",
   },
   {
-    name: "CITK",
+    name: "DevCom",
     link: "https://cit.ac.in",
   },
   {
-    name: "CITK",
+    name: "Design Circle",
     link: "https://cit.ac.in",
   },
   {
-    name: "test",
+    name: "Coding",
     link: "https://cit.ac.in",
   },
+  // {
+  //   name: "Construction Technology",
+  //   link: "https://cit.ac.in",
+  // },
+  // {
+  //   name: "VLSI",
+  //   link: "https://cit.ac.in",
+  // },
 ];
 
 export default function Footer() {
   return (
-    <footer className="h-96 bg-slate-800 p-10 text-white">
-      <div className="h-52 flex justify-between">
+    <footer className=" bg-slate-800 p-10 text-white">
+      <div className="flex justify-between">
         <div className="h-full w-1/4 flex flex-col items-center">
           <Image
             src={"/cit-logo.png"}
@@ -86,7 +98,11 @@ export default function Footer() {
         <div className="h-full w-1/4  px-10">
           <h5 className="underline">Quick Links</h5>
           {quicklinks.map((link, index) => (
-            <a href={link.link} key={index} className="block  py-2">
+            <a
+              href={link.link}
+              key={index}
+              className="block  py-2 hover:font-semibold text-sm"
+            >
               {link.name}
             </a>
           ))}
@@ -94,7 +110,11 @@ export default function Footer() {
         <div className="h-full w-1/4  px-10">
           <h5 className="underline">Official Site Links</h5>
           {officialLinks.map((link, index) => (
-            <a href={link.link} key={index} className="block  py-2">
+            <a
+              href={link.link}
+              key={index}
+              className="block  py-2 hover:font-semibold text-sm"
+            >
               {link.name}
             </a>
           ))}
@@ -102,7 +122,11 @@ export default function Footer() {
         <div className="h-full w-1/4  px-10">
           <h5 className="underline">Club Links</h5>
           {clubLinks.map((link, index) => (
-            <a href={link.link} key={index} className="block  py-2">
+            <a
+              href={link.link}
+              key={index}
+              className="block  py-2 hover:font-semibold text-sm"
+            >
               {link.name}
             </a>
           ))}
@@ -112,23 +136,30 @@ export default function Footer() {
         <hr className="mb-3" />
         <div className="flex justify-center gap-5">
           <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
-            <a href="https://cit.ac.in" target="_blank">
-              <FaGlobe className="text-lg" />
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="text-lg" />
             </a>
           </p>
           <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
-            <a href="https://cit.ac.in" target="_blank">
-              <FaGlobe className="text-lg" />
+            <a
+              href="mailto:example@example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaEnvelope className="text-lg" />
             </a>
           </p>
           <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
-            <a href="https://cit.ac.in" target="_blank">
-              <FaGlobe className="text-lg" />
-            </a>
-          </p>
-          <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
-            <a href="https://cit.ac.in" target="_blank">
-              <FaGlobe className="text-lg" />
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="text-lg" />
             </a>
           </p>
         </div>
