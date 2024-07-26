@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { FaDownload, FaUserPlus } from "react-icons/fa";
 import RecruitmentForm from "../home/recruitmentform";
 
-const images = ["/test/one.jpg", "/test/two.jpg", "/test/three.jpg"];
+const images = ["/test/homepage-1 CITK.jpg"];
 
 export default function HeroComp() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -35,19 +35,19 @@ export default function HeroComp() {
           </div>
         ))}
       </div>
-      <div className="absolute top-0 bottom-0 w-full flex items-center justify-center">
-        <div className="px-20 text-center">
-          <h1 className="text-7xl font-bold text-white">
+      <div className="absolute top-0 bottom-0 w-full flex items-center justify-center ">
+        <div className="px-20 text-center bg-black bg-opacity-30 py-10 rounded-2xl">
+          <h1 className="text-5xl font-bold text-white">
             TRAINING & PLACEMENT CELL
           </h1>
-          <p className="text-white mt-5 text-4xl uppercase">
+          <p className="text-white mt-5 text-3xl uppercase">
             Central Institute of Technology, Kokrajhar
           </p>
         </div>
       </div>
       <div className="w-full h-12 absolute bottom-28 flex justify-center items-center gap-10 text-sm font-bold">
         <button
-          className="bg-primary px-5 py-2 rounded-md border-2 uppercase hover:bg-white hover:text-black hover:border-primary hover:scale-105 duration-300 bg-opacity-90 flex items-center gap-2"
+          className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300"
           onClick={() => setShowForm(!showForm)} // Step 2: Toggle form visibility
         >
           <FaUserPlus className="text-xl" />

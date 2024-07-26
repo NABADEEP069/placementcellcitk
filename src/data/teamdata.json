@@ -11,7 +11,7 @@
       "phone": ""
     },
     {
-      "imageUrl": "/dr-agile-methew.jpg",
+      "imageUrl": "/faculty/BKC.png",
       "altText": "MR. BIKRAMJIT CHOUDHARY",
       "name": "MR. BIKRAMJIT CHOUDHARY",
       "role": "FACULTY MEMBER(CSE)",
@@ -21,7 +21,7 @@
       "phone": "+91-8638005168"
     },
     {
-      "imageUrl": "/dr-agile-methew.jpg",
+      "imageUrl": "/faculty/bhaskar saha.jpg",
       "altText": "DR. BHASKAR SAHA",
       "name": "DR. BHASKAR SAHA",
       "role": "FACULTY MEMBER(MCD)",
@@ -31,7 +31,7 @@
       "phone": "+91-9435560863"
     },
     {
-      "imageUrl": "/dr-agile-methew.jpg",
+      "imageUrl": "/faculty/safikamal.png",
       "altText": "SHAFI KAMAL RAHMAN",
       "name": "SHAFI KAMAL RAHMAN",
       "role": "FACULTY MEMBER(CE)",
@@ -41,7 +41,7 @@
       "phone": "+91 9957000980"
     },
     {
-      "imageUrl": "/dr-agile-methew.jpg",
+      "imageUrl": "/faculty/rajesh.jpg",
       "altText": "DR. RAJESH KONDAREDDY",
       "name": "DR. RAJESH KONDAREDDY",
       "role": "FACULTY MEMBER(IE)",
@@ -51,7 +51,7 @@
       "phone": "+91-7896863811"
     },
     {
-      "imageUrl": "/dr-agile-methew.jpg",
+      "imageUrl": "/faculty/abhijit.jpg",
       "altText": "MR. ABHIJIT DAS",
       "name": "MR. ABHIJIT DAS",
       "role": "FACULTY MEMBER(FET)",
@@ -63,7 +63,7 @@
   ],
   "StudentCoordinators": [
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/SHEIKH MARRIAH RUKHSER.jpeg",
       "altText": "Sheikh Marriah Rukhser",
       "name": "Sheikh Marriah Rukhser",
       "role": "Head Coordinator | CSE",
@@ -73,7 +73,7 @@
       "phone": "9957987888"
     },
     {
-      "imageUrl": "/student-emily.jpg",
+      "imageUrl": "/coordinators/ATUL ADITYA.jpg",
       "altText": "Atul Aditya",
       "name": "Atul Aditya",
       "role": "STUDENT COORDINATOR-1 | CSE ",
@@ -83,7 +83,7 @@
       "phone": "6206721106"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/SUBHASH KUMAR WARY.jpg",
       "altText": "Subhash Wary",
       "name": "Subhash Wary",
       "role": "STUDENT COORDINATOR-2 | CSE",
@@ -93,7 +93,7 @@
       "phone": "8812013021"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/JEFFFRY BASUMATARY.jpg",
       "altText": "Jeffry Basumatary",
       "name": "Jeffry Basumatary",
       "role": "Event Manager  | ECE",
@@ -104,7 +104,7 @@
     },
 
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "",
       "altText": "Ushna Basumatary",
       "name": "Ushna Basumatary",
       "role": "Event Anchor  | CE",
@@ -114,7 +114,7 @@
       "phone": "8822060876"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/GOMASA NAGESHWARI.jpg",
       "altText": "Gomasa Nageshwari",
       "name": "Gomasa Nageshwari ",
       "role": " STUDENT COORDINATOR-1 | ECE ",
@@ -124,7 +124,7 @@
       "phone": "9392589250"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/PRASHANT CHETTRI.jpg",
       "altText": "Prashant Chettri",
       "name": "Prashant Chettri",
       "role": " STUDENT COORDINATOR-2| ECE ",
@@ -134,7 +134,7 @@
       "phone": "8974058513"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/SHAMIM SHAHINUR RAHMAN.jpeg",
       "altText": "Shamim shahinur rahman",
       "name": "Shamim shahinur rahman",
       "role": "STUDENT COORDINATOR-1 | CE",
@@ -144,7 +144,7 @@
       "phone": "9706553977"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/UBHADEEP DAS.jpg",
       "altText": "Subhadeep Das",
       "name": "Subhadeep Das",
       "role": "STUDENT COORDINATOR-2| CE ",
@@ -154,7 +154,7 @@
       "phone": "8134005926"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/Akanksha Saha.jpg",
       "altText": "Akanksha Saha",
       "name": "Akanksha Saha",
       "role": " STUDENT COORDINATOR-1| IE ",
@@ -164,7 +164,7 @@
       "phone": "8876963106"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/PUJA KUMARI.jpg",
       "altText": "Puja Kumari ",
       "name": "Puja Kumari",
       "role": "STUDENT COORDINATOR-1| FET",
@@ -173,18 +173,9 @@
       "linkedinUrl": "https://www.linkedin.com/in/puja-kumari-793196206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "phone": "6299872429"
     },
+    
     {
-      "imageUrl": "/student-alex.jpg",
-      "altText": "Puja Kumari ",
-      "name": "Puja Kumari",
-      "role": "STUDENT COORDINATOR-1| FET",
-      "email": "alex@example.com",
-      "githubUrl": "https://github.com/alexjohnson",
-      "linkedinUrl": "https://www.linkedin.com/in/puja-kumari-793196206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "phone": "6299872429"
-    },
-    {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/BHARGAB SARMA.jpg",
       "altText": "Bhargab Sarma ",
       "name": "Bhargab Sarma",
       "role": "STUDENT COORDINATOR-2| FET",
@@ -194,7 +185,7 @@
       "phone": "7099766559"
     },
     {
-      "imageUrl": "/student-alex.jpg",
+      "imageUrl": "/coordinators/Adithyan KR.jpeg",
       "altText": "Adithyan K R",
       "name": "Adithyan K R",
       "role": "STUDENT COORDINATOR-1| MCD",

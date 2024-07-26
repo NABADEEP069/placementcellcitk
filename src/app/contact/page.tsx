@@ -44,7 +44,7 @@ export default function Page() {
 
       <section className="px-16 py-5 space-y-5 bg-gradient-to-r from-blue-100 to-teal-200 rounded-lg">
         <h1 className="text-5xl text-center">Student Co-ordinators</h1>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-3 gap-5">
           {teamData.StudentCoordinators.map((member) => (
             <InfoCard
               key={member.email}

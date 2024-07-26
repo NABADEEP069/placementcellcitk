@@ -15,7 +15,7 @@ export default function VisionCard({
 }: CardProps) {
   return (
     <div className="flex flex-col sm:flex-row sm:justify-center items-center relative">
-      <div className="sm:h-[16.5rem] sm:w-[16.5rem] bg-gray-300 sm:absolute left-72 sm:rounded-2xl rounded-t-2xl overflow-hidden shadow-xl">
+      <div className="sm:h-[16.5rem] sm:w-[16.5rem] bg-gray-300 sm:absolute left-72 md:left-32 sm:rounded-2xl rounded-t-2xl overflow-hidden shadow-xl">
         <Image
           src={image}
           alt="director"
@@ -24,7 +24,7 @@ export default function VisionCard({
           className="object-cover h-full"
         />
       </div>
-      <div className="sm:h-[19rem] bg-white sm:w-1/2 sm:pl-48 p-5 sm:rounded-2xl flex flex-col justify-between shadow-lg">
+      <div className="sm:h-[19rem] bg-white sm:w-1/2 md:w-2/3 sm:pl-48 p-5 sm:rounded-2xl flex flex-col justify-between shadow-lg">
         <div>
           <h3 className="text-2xl font-semibold">{title}</h3>
           <h5 className="text-slate-500">{subtitle}</h5>
