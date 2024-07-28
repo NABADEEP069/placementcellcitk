@@ -26,16 +26,16 @@ const officialLinks = [
     link: "https://cit.ac.in",
   },
   {
-    name: "Central Library ",
-    link: "https://cit.ac.in",
+    name: "Central Library",
+    link: "http://centrallibrary.cit.ac.in/",
   },
   {
     name: "Alumini Association",
-    link: "https://cit.ac.in",
+    link: "https://www.cit.ac.in/page-alumni-achievements",
   },
   {
-    name: "",
-    link: "https://cit.ac.in",
+    name: "MOU's",
+    link: "https://www.cit.ac.in/institute-mou",
   },
 ];
 
