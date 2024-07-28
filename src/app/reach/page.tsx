@@ -3,9 +3,9 @@ import ReachCardVarTwo from "@/components/common/reachcardvartwo";
 
 export default function Page() {
   return (
-    <main className="min-h-screen py-5 px-10 space-y-5">
+    <main className="min-h-screen py-5 px-5 sm:px-10 space-y-5">
       <h1 className="text-4xl font-bold text-center">How to Reach Us</h1>
-      <section className="flex flex-col gap-5 border-2 border-teal-500 py-7 rounded-lg">
+      <section className="flex flex-col sm:flex-row flex-wrap gap-5 border-2 border-teal-500 py-7 rounded-lg">
         <ReachCard
           image="/train.jpg"
           description="The nearest railway station to CIT Kokrajhar is the Kokrajhar Railway Station. It is situated just 10 kilometers away from the institute premises. The station serves as a vital gateway for students, faculty, and visitors alike."

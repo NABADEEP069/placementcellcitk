@@ -12,7 +12,6 @@ interface CardProps {
     description: string;
     currentcompany: string;
   };
-  //   onDetailsClick: () => void; // Function to handle button click
 }
 
 // Helper function to truncate description
@@ -25,10 +24,7 @@ const truncateDescription = (description: string, wordLimit: number) => {
 };
 
 // Step 2: Pass Props to Component
-export default function Card({
-  data,
-}: //   onDetailsClick,
-CardProps) {
+export default function Card({ data }: CardProps) {
   const [isDetailCardVisible, setIsDetailCardVisible] = useState(false);
 
   const truncatedDescription = truncateDescription(data.description, 15); // Truncate to 15 words
@@ -38,8 +34,8 @@ CardProps) {
   };
 
   return (
-    <div className="w-96 h-80 shadow-lg flex flex-col items-center p-4 bg-gradient-to-r from-blue-100 to-teal-200 rounded-2xl">
-      <div className="w-32 h-32 bg-gray-400 rounded-full overflow-hidden mb-2">
+    <div className="w-full sm:w-80 md:w-96 h-auto sm:h-80 shadow-lg flex flex-col items-center p-4 bg-gradient-to-r from-blue-100 to-teal-200 rounded-2xl">
+      <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gray-400 rounded-full overflow-hidden mb-2">
         <Image
           src={data.imageUrl}
           alt={data.altText}

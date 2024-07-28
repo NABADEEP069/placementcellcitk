@@ -19,13 +19,12 @@ export default function Page() {
             name={firstMember.name}
             role={firstMember.role}
             email={firstMember.email}
-            
             linkedinUrl={firstMember.linkedinUrl}
             phone={firstMember.phone}
           />
         </div>
 
-        <div className="w-5/6 grid grid-cols-3 gap-5">
+        <div className="w-full sm:w-5/6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           {otherMembers.map((member) => (
             <InfoCard
               key={member.email}
@@ -34,7 +33,6 @@ export default function Page() {
               name={member.name}
               role={member.role}
               email={member.email}
-              
               linkedinUrl={member.linkedinUrl}
               phone={member.phone}
             />
@@ -42,9 +40,9 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="px-16 py-5 space-y-5 bg-gradient-to-r from-blue-100 to-teal-200 rounded-lg">
+      <section className="px-5 sm:px-16 py-5 space-y-5 bg-gradient-to-r from-blue-100 to-teal-200 rounded-lg">
         <h1 className="text-5xl text-center">Student Co-ordinators</h1>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           {teamData.StudentCoordinators.map((member) => (
             <InfoCard
               key={member.email}
@@ -53,7 +51,6 @@ export default function Page() {
               name={member.name}
               role={member.role}
               email={member.email}
-             
               linkedinUrl={member.linkedinUrl}
               phone={member.phone}
             />
