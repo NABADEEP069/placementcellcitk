@@ -21,6 +21,14 @@ const tabs = [
         name: "Courses",
         path: "/courses",
       },
+      {
+        name: "Course Strength",
+        path: "/coursestrength",
+      },
+      {
+        name: "MOU's",
+        path: "/mou",
+      },
     ],
   },
   {
