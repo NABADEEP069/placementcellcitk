@@ -19,7 +19,7 @@ export default function Page() {
             name={firstMember.name}
             role={firstMember.role}
             email={firstMember.email}
-            githubUrl={firstMember.githubUrl}
+            
             linkedinUrl={firstMember.linkedinUrl}
             phone={firstMember.phone}
           />
@@ -34,7 +34,7 @@ export default function Page() {
               name={member.name}
               role={member.role}
               email={member.email}
-              githubUrl={member.githubUrl}
+              
               linkedinUrl={member.linkedinUrl}
               phone={member.phone}
             />
@@ -53,7 +53,7 @@ export default function Page() {
               name={member.name}
               role={member.role}
               email={member.email}
-              githubUrl={member.githubUrl}
+             
               linkedinUrl={member.linkedinUrl}
               phone={member.phone}
             />
