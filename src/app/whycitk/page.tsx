@@ -58,7 +58,6 @@ export default function Page() {
             ]}
           />
         );
-      // Add cases for other components as needed
       default:
         return null; // Or any default component or message
     }
@@ -86,8 +85,8 @@ export default function Page() {
         </p>
       </div>
       {/* new section */}
-      <div className="py-5 px-10">
-        <div className="flex justify-center gap-10 text-lg py-1 sticky top-14 bg-white">
+      <div className="py-5 px-4 sm:px-10">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-10 text-lg py-1 sticky top-14 bg-white">
           <button
             className={`px-4 py-2 rounded transition ${
               activeComponent === "The Academic Program"

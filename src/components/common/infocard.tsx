@@ -25,7 +25,7 @@ export default function InfoCard({
   githubUrl,
 }: InfoCardProps) {
   return (
-    <div className="bg-gray-100 shadow-xl rounded-lg flex flex-col w-80 md:h-80  p-5 hover:shadow-primary hover:shadow-md duration-500 group">
+    <div className="bg-gray-100 shadow-xl rounded-lg flex flex-col w-full sm:w-80 md:h-80 p-5 hover:shadow-primary hover:shadow-md duration-500 group">
       <div className="flex justify-center">
         <Image
           src={imageUrl}
@@ -35,7 +35,7 @@ export default function InfoCard({
           className="rounded-full group-hover:scale-110 duration-500 h-36 w-36"
         />
       </div>
-      <div className="pt- pb- text-center h-40">
+      <div className="pt-4 pb-4 text-center h-40">
         <div className="text-xl font-bold text-gray-800 group-hover:text-primary duration-300 capitalize">
           {name}
         </div>

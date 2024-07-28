@@ -64,21 +64,21 @@ const clubLinks = [
     name: "Coding",
     link: "https://cit.ac.in",
   },
-   {
-   name: "Construction Technology",
-     link: "https://cit.ac.in",
-   },
-   {
-     name: "VLSI",
-     link: "https://cit.ac.in",
-   },
+  {
+    name: "Construction Technology",
+    link: "https://cit.ac.in",
+  },
+  {
+    name: "VLSI",
+    link: "https://cit.ac.in",
+  },
 ];
 
 export default function Footer() {
   return (
-    <footer className=" bg-slate-800 p-10 text-white">
-      <div className="flex justify-between">
-        <div className="h-full w-1/4 flex flex-col items-center">
+    <footer className="bg-slate-800 p-10 text-white">
+      <div className="flex flex-col md:flex-row justify-center items-center">
+        <div className="h-full w-full md:w-1/4 flex flex-col items-center mb-6 md:mb-0">
           <Image
             src={"/cit-logo.png"}
             alt="logo"
@@ -89,43 +89,38 @@ export default function Footer() {
           <p className="text-center">
             Central Institute of Technology Kokrajhar - 783370, Assam, India
           </p>
-          {/* <p className="border-2 p-2 rounded-full">
-            <a href="https://cit.ac.in" target="_blank">
-              <FaGlobe className="text-lg" />
-            </a>
-          </p> */}
         </div>
-        <div className="h-full w-1/4  px-10">
-          <h5 className="underline">Quick Links</h5>
+        <div className="h-full w-full md:w-1/4 px-0 md:px-10 mb-6 md:mb-0">
+          <h5 className="underline text-center">Quick Links</h5>
           {quicklinks.map((link, index) => (
             <a
               href={link.link}
               key={index}
-              className="block  py-2 hover:font-semibold text-sm"
+              className="block py-2 hover:font-semibold text-sm text-center"
             >
               {link.name}
             </a>
           ))}
         </div>
-        <div className="h-full w-1/4  px-10">
-          <h5 className="underline">Official Site Links</h5>
+        <div className="h-full w-full md:w-1/4 px-0 md:px-10 mb-6 md:mb-0">
+          <h5 className="underline text-center">Official Site Links</h5>
           {officialLinks.map((link, index) => (
             <a
               href={link.link}
               key={index}
-              className="block  py-2 hover:font-semibold text-sm"
+              className="block py-2 hover:font-semibold text-sm text-center"
             >
               {link.name}
             </a>
           ))}
         </div>
-        <div className="h-full w-1/4  px-10">
-          <h5 className="underline">Club Links</h5>
+        <div className="h-full w-full md:w-1/4 px-0 md:px-10">
+          <h5 className="underline text-center">Club Links</h5>
           {clubLinks.map((link, index) => (
             <a
               href={link.link}
               key={index}
-              className="block  py-2 hover:font-semibold text-sm"
+              className="block py-2 hover:font-semibold text-sm text-center"
             >
               {link.name}
             </a>
@@ -164,10 +159,10 @@ export default function Footer() {
           </p>
         </div>
         <h6 className="text-center text-white text-xs mt-9">
-          Developed by  and managed by{" "}
+          Developed by and managed by{" "}
           <strong>Placement Cell CIT, Kokrajhar </strong>
         </h6>
       </div>
-    </footer> 
+    </footer>
   );
 }
