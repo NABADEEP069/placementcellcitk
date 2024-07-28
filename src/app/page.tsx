@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroComp />
       <AboutSection />
-      <ImageCarousel />
+      <ImageCarousel /> 
       <div className="bg-gradient-to-br from-teal-300 to-blue-300 py-5 space-y-5">
         <VisionCard
           title="Our Vision"
@@ -18,7 +18,7 @@ export default function Home() {
           image="/director-2023.jpg"
         />
         <CardOne />
-       
+
       </div>
     </main>
   );

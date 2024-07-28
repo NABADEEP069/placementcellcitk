@@ -34,7 +34,7 @@ export default function VisionCard({
         </div>
         <div className="flex justify-end">
           <button className="text-sm font-semibold text-green-500">
-            Read More..
+            
           </button>
         </div>
       </div>
