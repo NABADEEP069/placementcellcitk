@@ -7,22 +7,22 @@ const facilities = [
     imageUrl: "/Facilities/acroom.jpeg",
   },
   {
-    title: "Conference rooms with audio visual setups",
-    imageUrl: "",
+    title: "Conference Rooms ",
+    imageUrl: "/Facility/F-3.jpg",
   },
   {
     title: "Well-equipped Computer Labs",
-    imageUrl: "",
+    imageUrl: "/Facility/F-5.jpg",
   },
   {
     title:
-      "Round the clock assistance by the students' volunteers at each level of placement process",
-    imageUrl: "",
+      "Seminers",
+    imageUrl: "/Facility/F-4.jpeg",
   },
   {
     title:
       "Highly motivated and experienced staff to coordinate the whole process",
-    imageUrl: "/company_logo.png",
+    imageUrl: "/Facility/F-2.jpg",
     
   },
 ];

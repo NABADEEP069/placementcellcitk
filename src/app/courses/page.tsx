@@ -2,27 +2,27 @@ import ClubCard from "@/components/whycitk/clubcard";
 
 const btechCourses = [
   {
-    name: "Computer Science & Engineering",
+    name: "Computer Science & Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Electronics & Communication Engineering",
+    name: "Electronics & Communication Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Civil Engineering",
+    name: "Civil Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Food Engineering & Technology",
+    name: "Food Engineering & Technology.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Instrumentation Engineering",
+    name: "Instrumentation Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Multimedia Communication & Design",
+    name: "Multimedia Communication & Design.",
     imageUrl: "/cit-logo.png",
   },
 ];
@@ -81,7 +81,7 @@ export default function Page() {
 
         <div className="px-5 sm:px-10 mb-10 mt-5">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
-            Undergraduate Programs
+            Undergraduate Programms
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {btechCourses.map((course, index) => (
@@ -96,7 +96,7 @@ export default function Page() {
 
         <div className="px-5 sm:px-10 mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
-            Masters Programs
+            Masters Programms
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {mtechCourses.map((course, index) => (
@@ -111,7 +111,7 @@ export default function Page() {
 
         <div className="px-5 sm:px-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
-            Diploma Programs
+            Diploma Programms
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {diplomaCourses.map((course, index) => (
