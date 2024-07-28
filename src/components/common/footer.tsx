@@ -7,13 +7,10 @@ const quicklinks = [
     link: "/courses",
   },
   {
-    name: "Alumni",
+    name: " Our Alumni",
     link: "/alumni",
   },
-  {
-    name: "Contact",
-    link: "/contact",
-  },
+ 
   {
     name: "Why CITK",
     link: "/whycitk",
@@ -41,36 +38,36 @@ const officialLinks = [
 
 const clubLinks = [
   {
-    name: "Cyber X Secure",
+    name: "Cyber X Secure Club",
     link: "https://sites.google.com/cit.ac.in/cyberxsecureclub/home?authuser=0",
   },
   {
-    name: "AI",
+    name: "AI Club",
     link: "https://cit.ac.in",
   },
   {
-    name: "Robotics",
+    name: "Robotics Club",
+    link: "https://roboticsclub.cit.ac.in/",
+  },
+  {
+    name: "DevCom Club",
     link: "https://cit.ac.in",
   },
   {
-    name: "DevCom",
-    link: "https://cit.ac.in",
+    name: "Design Circle Club",
+    link: "https://www.cit.ac.in/club-Design%20Circle",
   },
   {
-    name: "Design Circle",
-    link: "https://cit.ac.in",
-  },
-  {
-    name: "Coding",
-    link: "https://cit.ac.in",
+    name: "Coding Club",
+    link: "https://codingclub.cit.ac.in/",
   },
    {
-   name: "Construction Technology",
-     link: "https://cit.ac.in",
+   name: "Construction Technology Club",
+     link: "https://www.cit.ac.in/club-Construction%20Technology",
    },
    {
-     name: "VLSI",
-     link: "https://cit.ac.in",
+     name: "VLSI Club",
+     link: "https://www.linkedin.com/company/vlsi-club-citk/posts/?feedView=all",
    },
 ];
 
