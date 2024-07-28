@@ -81,7 +81,7 @@ export default function Page() {
 
         <div className="px-5 sm:px-10 mb-10 mt-5">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
-            B.Tech Programs
+            Undergraduate Programs
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {btechCourses.map((course, index) => (
@@ -96,7 +96,7 @@ export default function Page() {
 
         <div className="px-5 sm:px-10 mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
-            M.Tech Programs
+            Masters Programs
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {mtechCourses.map((course, index) => (
