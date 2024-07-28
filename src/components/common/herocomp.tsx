@@ -8,12 +8,12 @@ const images = ["/test/homepage-1 CITK.jpg"];
 
 export default function HeroComp() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [showForm, setShowForm] = useState(false); // Step 1: State to control visibility
+  const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % images.length);
-    }, 7000); // Change image every x seconds
+    }, 7000);
 
     return () => clearInterval(interval);
   }, []);
@@ -35,20 +35,20 @@ export default function HeroComp() {
           </div>
         ))}
       </div>
-      <div className="absolute top-0 bottom-0 w-full flex items-center justify-center ">
-        <div className="px-20 text-center bg-black bg-opacity-30 py-10 rounded-2xl">
-          <h1 className="text-5xl font-bold text-white">
+      <div className="absolute top-0 bottom-0 w-full flex items-center justify-center">
+        <div className="px-5 md:px-20 text-center bg-black bg-opacity-30 py-5 md:py-10 rounded-2xl">
+          <h1 className="text-3xl md:text-5xl font-bold text-white">
             TRAINING & PLACEMENT CELL
           </h1>
-          <p className="text-white mt-5 text-3xl uppercase">
+          <p className="text-white mt-2 md:mt-5 text-xl md:text-3xl uppercase">
             Central Institute of Technology, Kokrajhar
           </p>
         </div>
       </div>
-      <div className="w-full h-12 absolute bottom-28 flex justify-center items-center gap-10 text-sm font-bold">
+      <div className="w-full h-12 absolute bottom-10 md:bottom-28 flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10 text-sm font-bold">
         <button
           className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300"
-          onClick={() => setShowForm(!showForm)} // Step 2: Toggle form visibility
+          onClick={() => setShowForm(!showForm)}
         >
           <FaUserPlus className="text-xl" />
           Recruitment
@@ -58,9 +58,7 @@ export default function HeroComp() {
           Brochure
         </button>
       </div>
-      {showForm && (
-        <RecruitmentForm setShowRecruitmentForm={setShowForm} />
-      )}{" "}
+      {showForm && <RecruitmentForm setShowRecruitmentForm={setShowForm} />}
     </section>
   );
 }
