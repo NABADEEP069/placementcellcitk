@@ -26,15 +26,15 @@ const officialLinks = [
     link: "https://cit.ac.in",
   },
   {
-    name: "CITK",
+    name: "Central Library ",
     link: "https://cit.ac.in",
   },
   {
-    name: "CITK",
+    name: "Alumini Association",
     link: "https://cit.ac.in",
   },
   {
-    name: "CITK",
+    name: "",
     link: "https://cit.ac.in",
   },
 ];

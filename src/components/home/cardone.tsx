@@ -26,9 +26,6 @@ export default function CardOne() {
           </p>
         </div>
         <div className="">
-          <button className="text-sm font-semibold text-green-500">
-            Read More..
-          </button>
         </div>
       </div>
     </div>
