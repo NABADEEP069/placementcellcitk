@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const facilities = [
   {
@@ -45,11 +46,14 @@ export default function Page() {
             key={index}
             className="bg-white shadow-md rounded-lg overflow-hidden"
           >
-            <img
-              src={facility.imageUrl}
-              alt={facility.title}
-              className="w-full h-48 object-cover"
-            />
+            <div className="relative w-full h-48">
+              <Image
+                src={facility.imageUrl}
+                alt={facility.title}
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
             <div className="p-4">
               <h2 className="text-xl font-semibold text-center">
                 {facility.title}

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface Mou {
   name: string;
@@ -24,11 +25,14 @@ const MouPage: React.FC = () => {
             key={index}
             className="bg-white shadow-md rounded-lg overflow-hidden"
           >
-            <img
-              src={mou.imageUrl}
-              alt={mou.name}
-              className="w-full h-48 object-cover"
-            />
+            <div className="relative w-full h-48">
+              <Image
+                src={mou.imageUrl}
+                alt={mou.name}
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
             <div className="p-4">
               <h2 className="text-xl font-semibold text-center">{mou.name}</h2>
             </div>
