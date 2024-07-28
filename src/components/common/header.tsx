@@ -25,32 +25,14 @@ const tabs = [
         name: "Course Strength",
         path: "/coursestrength",
       },
-      {
-        name: "MOU's",
-        path: "/mou",
-      },
+      
     ],
   },
   {
     name: "Recruiters",
     path: "/recruiters",
   },
-  {
-    // Dropdown
-    name: "Why Us",
-    path: "#",
-    dropdown: [
-      {
-        name: "Why CITK",
-        path: "/whycitk",
-      },
-
-      {
-        name: " Our Alumni",
-        path: "/alumni",
-      },
-    ],
-  },
+ 
 
   {
     name: "Contact Us",
