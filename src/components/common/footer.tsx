@@ -64,14 +64,14 @@ const clubLinks = [
     name: "Coding",
     link: "https://cit.ac.in",
   },
-  // {
-  //   name: "Construction Technology",
-  //   link: "https://cit.ac.in",
-  // },
-  // {
-  //   name: "VLSI",
-  //   link: "https://cit.ac.in",
-  // },
+   {
+   name: "Construction Technology",
+     link: "https://cit.ac.in",
+   },
+   {
+     name: "VLSI",
+     link: "https://cit.ac.in",
+   },
 ];
 
 export default function Footer() {
@@ -164,10 +164,10 @@ export default function Footer() {
           </p>
         </div>
         <h6 className="text-center text-white text-xs mt-9">
-          Developed by <strong>Debanand Singha</strong> and managed by{" "}
-          <strong>Nabadeep Das</strong>
+          Developed by  and managed by{" "}
+          <strong>Placement Cell CIT, Kokrajhar </strong>
         </h6>
       </div>
-    </footer>
+    </footer> 
   );
 }

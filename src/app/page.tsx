@@ -18,6 +18,12 @@ export default function Home() {
           image="/director-2023.jpg"
         />
         <CardOne />
+        <VisionCard
+          title="Dean Alumni Message"
+          subtitle="DEAN ALUMNI & EXTERNAL RELATIONS OFFICE"
+          description="I am delighted to address you as the Dean of Alumni and External Relations for the Training and Placement department of CIT Kokrajhar. It gives me immense pleasure to share with you the remarkable achievements of our alumni, who have consistently been placed in top organizations across various industries."
+          image="/dean.jpg"
+        />
       </div>
     </main>
   );

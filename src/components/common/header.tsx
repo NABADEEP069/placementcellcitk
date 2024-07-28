@@ -48,20 +48,14 @@ const tabs = [
         name: "Demographics",
         path: "/demographics",
       },
+     
       {
-        name: "Technical Clubs",
-        path: "/clubs",
-      },
-      {
-        name: "Alumni",
+        name: " Our Alumni",
         path: "/alumni",
       },
     ],
   },
-  {
-    name: "Procedure",
-    path: "/procedure",
-  },
+
   {
     name: "Contact Us",
     path: "#",
