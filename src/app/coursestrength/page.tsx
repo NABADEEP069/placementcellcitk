@@ -11,28 +11,37 @@ interface Module {
 }
 
 const modules: Module[] = [
+
   {
-    name: "B.Tech",
+    name: "Diploma Programme",
     courses: [
-      { name: "Computer Science", strength: 120 },
-      { name: "Mechanical Engineering", strength: 80 },
-      { name: "Electrical Engineering", strength: 100 },
-      { name: "Civil Engineering", strength: 70 },
-      { name: "Chemical Engineering", strength: 60 },
+      { name: "Electronics and Communication Engineering (ECE)", strength: 50 },
+      { name: "Computer Science and Engineering (CSE)", strength: 40 },
+      { name: "Control and Instrumentation (CAI)", strength: 40 },
+      { name: "Food Processing Technology (FPT)", strength: 40 },
+      { name: "Civil Engineering (CE)", strength: 40 },
+      { name: "Animation & Multimedia Technology (AMT)", strength: 40 },
+      
     ],
   },
   {
-    name: "Diploma",
+    name: "Undergraduate Programme",
     courses: [
-      { name: "Civil Engineering", strength: 50 },
-      { name: "Mechanical Engineering", strength: 40 },
+      { name: "Computer Science & Engineering", strength: 120 },
+      { name: "Electronics & Communication Engineering", strength: 80 },
+      { name: "Civil Engineering", strength: 100 },
+      { name: "Food Engineering & Technology", strength: 70 },
+      { name: "Instrumentation Engineering", strength: 60 },
+      { name: "Multimedia Communication & Design", strength: 60 },
     ],
   },
   {
-    name: "Master",
+    name: "Masters Programme",
     courses: [
       { name: "Computer Science", strength: 30 },
       { name: "Mechanical Engineering", strength: 20 },
+      { name: "Chemical Engineering", strength: 60 },
+      { name: "Chemical Engineering", strength: 60 },
     ],
   },
 ];

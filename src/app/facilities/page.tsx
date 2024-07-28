@@ -4,25 +4,26 @@ import Image from "next/image";
 const facilities = [
   {
     title: "Fully furnished AC rooms",
-    imageUrl: "/images/ac_rooms.jpg",
+    imageUrl: "/Facilities/acroom.jpeg",
   },
   {
-    title: "Conference rooms with audio visual setups",
-    imageUrl: "/images/conference_rooms.jpg",
+    title: "Conference Rooms ",
+    imageUrl: "/Facility/F-3.jpg",
   },
   {
     title: "Well-equipped Computer Labs",
-    imageUrl: "/images/computer_labs.jpg",
+    imageUrl: "/Facility/F-5.jpg",
   },
   {
     title:
-      "Round the clock assistance by the students' volunteers at each level of placement process",
-    imageUrl: "/images/assistance.jpg",
+      "Seminers",
+    imageUrl: "/Facility/F-4.jpeg",
   },
   {
     title:
       "Highly motivated and experienced staff to coordinate the whole process",
-    imageUrl: "/company_logo.png",
+    imageUrl: "/Facility/F-2.jpg",
+    
   },
 ];
 
