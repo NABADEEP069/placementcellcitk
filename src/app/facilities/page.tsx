@@ -22,7 +22,8 @@ const facilities = [
   {
     title:
       "Highly motivated and experienced staff to coordinate the whole process",
-    imageUrl: "",
+    imageUrl: "/company_logo.png",
+    
   },
 ];
 
