@@ -33,26 +33,43 @@ const mtechCourses = [
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Civil Engineering",
-    imageUrl: "/cit-logo.png",
-  },
-  {
     name: "Food Engineering & Technology",
     imageUrl: "/cit-logo.png",
   },
+  {
+    name: "Green Energy Technology (GET)",
+    imageUrl: "/cit-logo.png",
+  },
+  {
+    name: "Water Resources and Hydraulic Engineering (WRH)",
+    imageUrl: "/cit-logo.png",
+  },
+
 ];
 
 const diplomaCourses = [
   {
-    name: "Electrical Engineering",
+    name: "Electronics and Communication Engineering (ECE)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Civil Engineering",
+    name: "Computer Science and Engineering (CSE)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Computer Engineering",
+    name: "Control and Instrumentation (CAI)",
+    imageUrl: "/cit-logo.png",
+  },
+  {
+    name: "Food Processing Technology (FPT)",
+    imageUrl: "/cit-logo.png",
+  },
+  {
+    name: "Civil Engineering (CE)",
+    imageUrl: "/cit-logo.png",
+  },
+  {
+    name: "Animation & Multimedia Technology (AMT)",
     imageUrl: "/cit-logo.png",
   },
 ];
