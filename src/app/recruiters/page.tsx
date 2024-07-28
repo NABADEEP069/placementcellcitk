@@ -1,22 +1,21 @@
+import fs from "fs";
+import path from "path";
 import Image from "next/image";
 
-const recruiters = [
-  { src: "/test/amazon.png", alt: "Recruiter 1" },
-  { src: "/test/infosys.png", alt: "Recruiter 2" },
-  { src: "/test/amazon.png", alt: "Recruiter 3" },
-  { src: "/test/amazon.png", alt: "Recruiter 1" },
-  { src: "/test/infosys.png", alt: "Recruiter 2" },
-  { src: "/test/amazon.png", alt: "Recruiter 3" },
-  { src: "/test/amazon.png", alt: "Recruiter 1" },
-  { src: "/test/infosys.png", alt: "Recruiter 2" },
-  { src: "/test/amazon.png", alt: "Recruiter 3" },
-  { src: "/test/amazon.png", alt: "Recruiter 1" },
-  { src: "/test/infosys.png", alt: "Recruiter 2" },
-  { src: "/test/amazon.png", alt: "Recruiter 3" },
-  // Add more recruiter logos here
-];
+interface Recruiter {
+  src: string;
+  alt: string;
+}
 
 export default function RecruitersPage() {
+  const directoryPath = path.join(process.cwd(), "public", "company_logos");
+  const filenames = fs.readdirSync(directoryPath);
+
+  const recruiters: Recruiter[] = filenames.map((filename) => ({
+    src: `/company_logos/${filename}`,
+    alt: `Recruiter ${filename.split(".")[0]}`,
+  }));
+
   return (
     <main className="sm:min-h-screen py-5 px-5 sm:px-10 space-y-5 bg-gray-50">
       <h1 className="text-4xl font-bold text-center text-gray-800">
