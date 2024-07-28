@@ -11,7 +11,7 @@ export default function RecruitmentForm({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30">
       <div className="absolute top-0 left-0 w-full h-full z-40 flex justify-center items-center">
-        <div className="bg-black bg-opacity-85 w-5/6 h-5/6 rounded-lg relative p-10 flex flex-col items-center justify-between">
+        <div className="bg-black bg-opacity-85 sm:w-5/6 sm:h-5/6 rounded-lg relative p-10 flex flex-col items-center justify-between">
           <button
             onClick={() => setShowRecruitmentForm(false)}
             className="absolute right-3 top-2"

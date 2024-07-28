@@ -44,7 +44,6 @@ const mtechCourses = [
     name: "Water Resources and Hydraulic Engineering (WRH)",
     imageUrl: "/cit-logo.png",
   },
-
 ];
 
 const diplomaCourses = [
@@ -76,15 +75,15 @@ const diplomaCourses = [
 
 export default function Page() {
   return (
-    <main className="min-h-screen  py-5">
+    <main className="min-h-screen py-5">
       <div className="container mx-auto">
         <h1 className="text-5xl font-bold text-center">Courses</h1>
 
-        <div className="px-10 mb-10 mt-5">
-          <h2 className="text-4xl font-bold text-center mb-5">
+        <div className="px-5 sm:px-10 mb-10 mt-5">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
             B.Tech Programs
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {btechCourses.map((course, index) => (
               <ClubCard
                 key={index}
@@ -95,11 +94,11 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="px-10 mb-10">
-          <h2 className="text-4xl font-bold text-center mb-5">
+        <div className="px-5 sm:px-10 mb-10">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
             M.Tech Programs
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {mtechCourses.map((course, index) => (
               <ClubCard
                 key={index}
@@ -110,11 +109,11 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="px-10">
-          <h2 className="text-4xl font-bold text-center mb-5">
+        <div className="px-5 sm:px-10">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
             Diploma Programs
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {diplomaCourses.map((course, index) => (
               <ClubCard
                 key={index}
