@@ -27,12 +27,12 @@ const modules: Module[] = [
   {
     name: "Undergraduate Programme",
     courses: [
-      { name: "Computer Science & Engineering", strength: 120 },
-      { name: "Electronics & Communication Engineering", strength: 80 },
-      { name: "Civil Engineering", strength: 100 },
-      { name: "Food Engineering & Technology", strength: 70 },
-      { name: "Instrumentation Engineering", strength: 60 },
-      { name: "Multimedia Communication & Design", strength: 60 },
+      { name: "Computer Science & Engineering", strength: 107 },
+      { name: "Electronics & Communication Engineering", strength: 49 },
+      { name: "Civil Engineering", strength: 77 },
+      { name: "Food Engineering & Technology", strength: 29 },
+      { name: "Instrumentation Engineering", strength: 41 },
+      { name: "Multimedia Communication & Design", strength: 20 },
     ],
   },
   {

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { FaDownload, FaUserPlus } from "react-icons/fa";
 import RecruitmentForm from "../home/recruitmentform";
 
-const images = ["/test/homepage-1 CITK.jpg"];
+const images = ["/test/homepage-1 CITK.jpg", "/test/CIT-Kokrajhar-celebrates-second-convocation-5.jpeg"];
 
 export default function HeroComp() {
   const [activeIndex, setActiveIndex] = useState(0);

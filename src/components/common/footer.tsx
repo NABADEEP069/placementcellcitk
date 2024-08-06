@@ -129,7 +129,7 @@ export default function Footer() {
         <div className="flex justify-center gap-5">
           <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/school/t-p-cell-cit-kokrajhar/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -138,7 +138,7 @@ export default function Footer() {
           </p>
           <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
             <a
-              href="mailto:example@example.com"
+              href="mailto:tnp@cit.ac.in"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -147,7 +147,7 @@ export default function Footer() {
           </p>
           <p className="border-2 rounded-full w-9 h-9 flex justify-center items-center">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/tnpcellcitk/"
               target="_blank"
               rel="noopener noreferrer"
             >
