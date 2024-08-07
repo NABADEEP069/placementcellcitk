@@ -33,9 +33,7 @@ export default function VisionCard({
           <p className="mt-3">{description}</p>
         </div>
         <div className="flex justify-end">
-          <button className="text-sm font-semibold text-green-500">
-            
-          </button>
+          <button className="text-sm font-semibold text-green-500"></button>
         </div>
       </div>
     </div>

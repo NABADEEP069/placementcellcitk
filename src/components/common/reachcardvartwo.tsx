@@ -24,10 +24,9 @@ export default function ReachCardVarTwo({
           className="object-cover h-full"
         />
       </div>
-      <div className="sm:h-[19rem] bg-gradient-to-r from-blue-200 to-teal-500 sm:w-5/6 sm:pr-80 p-7 sm:rounded-2xl flex flex-col justify-center gap-5  shadow-lg">
-        <div className="">
+      <div className="sm:h-96 md:h-80 bg-gradient-to-r from-blue-200 to-teal-500 sm:w-5/6 sm:pr-80 p-7 sm:rounded-2xl flex flex-col justify-center gap-5 shadow-lg">
+        <div>
           <h3 className="text-4xl font-semibold">{title}</h3>
-          {/* <hr className="w-2/3 border-primary" /> */}
         </div>
 
         <section>
