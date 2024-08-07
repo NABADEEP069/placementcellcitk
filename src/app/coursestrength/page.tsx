@@ -88,10 +88,10 @@ const modules: Module[] = [
   {
     name: "Masters Programme",
     courses: [
-      { name: "Computer Science", male: 20, female: 10, strength: 30 },
-      { name: "Mechanical Engineering", male: 15, female: 5, strength: 20 },
-      { name: "Chemical Engineering", male: 40, female: 20, strength: 60 },
-      { name: "Chemical Engineering", male: 40, female: 20, strength: 60 },
+      { name: "Computer Science", strength: 30 },
+      { name: "Mechanical Engineering", strength: 20 },
+      { name: "Chemical Engineering", strength: 60 },
+      { name: "Chemical Engineering", strength: 60 },
     ],
   },
 ];

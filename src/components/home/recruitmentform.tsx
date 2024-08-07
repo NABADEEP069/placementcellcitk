@@ -20,7 +20,7 @@ export default function RecruitmentForm({
           </button>
           <div>
             <h5 className="text-4xl font-bold capitalize text-center">
-              Invitation to Recruiters: Engage with Our Talent for the 2023-24
+              Invitation to Recruiters: Engage with Our Talent for the 2024-25
               Placement & Internship Season
             </h5>
             <p className="text-center text-xl text-blue-200 font-semibold mt-1">
@@ -55,7 +55,7 @@ export default function RecruitmentForm({
               We extend a warm invitation to all esteemed recruiters and
               organizations to participate in the Placement Drive for Final year
               B.Tech and M.Tech students, as well as the Internship Drive for
-              Pre-final and Final year students, for the season 2023-24. At CIT
+              Pre-final and Final year students, for the season 2024-25. At CIT
               Kokrajhar, we take immense pride in our student&apos;s academic
               excellence, practical skills, and dedication to becoming future
               leaders in their respective fields.
@@ -67,7 +67,7 @@ export default function RecruitmentForm({
                 href="mailto:tnpcell@cit.ac.in"
                 className="text-blue-500 hover:underline"
               >
-                tnpcell@cit.ac.in
+                tnp@cit.ac.in 
               </a>{" "}
               or Contact our respective TPC&apos;s. Thank you for considering
               Central Institute of Technology Kokrajhar as your preferred
