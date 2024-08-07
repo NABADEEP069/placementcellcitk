@@ -15,12 +15,12 @@ const modules: Module[] = [
   {
     name: "Diploma Programme",
     courses: [
-      { name: "Electronics and Communication Engineering (ECE)", strength: 50 },
-      { name: "Computer Science and Engineering (CSE)", strength: 40 },
-      { name: "Control and Instrumentation (CAI)", strength: 40 },
-      { name: "Food Processing Technology (FPT)", strength: 40 },
-      { name: "Civil Engineering (CE)", strength: 40 },
-      { name: "Animation & Multimedia Technology (AMT)", strength: 40 },
+      { name: "Electronics and Communication Engineering (ECE)", strength: 30 },
+      { name: "Computer Science and Engineering (CSE)", strength: 30 },
+      { name: "Control and Instrumentation (CAI)", strength: 30 },
+      { name: "Food Processing Technology (FPT)", strength: 30 },
+      { name: "Civil Engineering (CE)", strength: 30 },
+      { name: "Animation & Multimedia Technology (AMT)", strength: 30 },
       
     ],
   },
@@ -38,10 +38,11 @@ const modules: Module[] = [
   {
     name: "Masters Programme",
     courses: [
-      { name: "Computer Science", strength: 30 },
-      { name: "Mechanical Engineering", strength: 20 },
-      { name: "Chemical Engineering", strength: 60 },
-      { name: "Chemical Engineering", strength: 60 },
+      { name: "Computer Science", strength: 18 },
+      { name: "GET", strength: 18 },
+      { name: "FET", strength: 18 },
+      { name: "WHRE", strength: 18 },
+      { name: "MCD", strength: 15 },
     ],
   },
 ];
