@@ -156,8 +156,8 @@ export default function Footer() {
           </p>
         </div>
         <h6 className="text-center text-white text-xs mt-9">
-          Developed by and managed by{" "}
-          <strong>Placement Cell CIT, Kokrajhar </strong>
+          Developed and managed by{" "}
+          <strong>Placement Cell, CITK </strong>
         </h6>
       </div>
     </footer>

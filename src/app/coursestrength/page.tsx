@@ -54,33 +54,33 @@ const modules: Module[] = [
     courses: [
       {
         name: "Computer Science & Engineering",
-        male: 60,
-        female: 47,
+        male: 81,
+        female: 26,
         strength: 107,
       },
       {
         name: "Electronics & Communication Engineering",
-        male: 30,
-        female: 19,
+        male: 38,
+        female: 11,
         strength: 49,
       },
-      { name: "Civil Engineering", male: 50, female: 27, strength: 77 },
+      { name: "Civil Engineering", male: 54, female: 23, strength: 77 },
       {
         name: "Food Engineering & Technology",
-        male: 15,
-        female: 14,
+        male: 20,
+        female: 9,
         strength: 29,
       },
       {
         name: "Instrumentation Engineering",
-        male: 25,
-        female: 16,
+        male: 31,
+        female: 10,
         strength: 41,
       },
       {
         name: "Multimedia Communication & Design",
-        male: 10,
-        female: 10,
+        male: 15,
+        female: 5,
         strength: 20,
       },
     ],
@@ -88,10 +88,31 @@ const modules: Module[] = [
   {
     name: "Masters Programme",
     courses: [
-      { name: "Computer Science", strength: 30 },
-      { name: "Mechanical Engineering", strength: 20 },
-      { name: "Chemical Engineering", strength: 60 },
-      { name: "Chemical Engineering", strength: 60 },
+      {
+        name: "Computer Science and Engineering", strength: 30,
+        male: 0,
+        female: 0
+      },
+      {
+        name: "Food Engineering and Technology (FET)", strength: 20,
+        male: 0,
+        female: 0
+      },
+      {
+        name: "Green Energy Technology (GET)", strength: 60,
+        male: 0,
+        female: 0
+      },
+      {
+        name: "Water Resources and Hydraulic Engineering (WRH)", strength: 60,
+        male: 0,
+        female: 0
+      },
+      {
+        name: "Master of Design (M. Des)", strength: 60,
+        male: 0,
+        female: 0
+      }
     ],
   },
 ];

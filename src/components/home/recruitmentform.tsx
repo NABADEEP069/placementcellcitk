@@ -67,7 +67,7 @@ export default function RecruitmentForm({
                 href="mailto:tnpcell@cit.ac.in"
                 className="text-blue-500 hover:underline"
               >
-                tnp@cit.ac.in 
+                tnp@cit.ac.in  
               </a>{" "}
               or Contact our respective TPC&apos;s. Thank you for considering
               Central Institute of Technology Kokrajhar as your preferred
