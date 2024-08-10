@@ -30,7 +30,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <div style={{ display: "none" }}>Author: Debanand Singha (CSE)</div>
+        <div style={{ display: "none" }}></div>
       </body>
     </html>
   );

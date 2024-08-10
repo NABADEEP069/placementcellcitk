@@ -15,7 +15,7 @@ export default function CardOne() {
       <div className="sm:h-[19rem] bg-white sm:w-1/2 md:w-2/3 sm:pr-48 p-5 sm:rounded-2xl flex flex-col justify-between shadow-lg">
         <div>
           <h3 className="text-2xl font-semibold">Exploring the skies</h3>
-          <h5 className="white">THE TRAINING AND PLACEMENT CELL</h5>
+          <h5 className="text-slate-500">THE TRAINING AND PLACEMENT CELL</h5>
           <hr className="w-2/3 border-primary" />
 
           <p className="mt-3">

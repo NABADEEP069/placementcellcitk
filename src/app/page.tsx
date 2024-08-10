@@ -10,7 +10,7 @@ export default function Home() {
       <HeroComp />
       <ImageCarousel />
       <AboutSection />
-      <div className="bg-gradient-to-br from-teal-300 to-blue-300 py-5 space-y-5">
+      <div className="bg-gradient-to-br from-blue-300 to-blue-300 py-5 space-y-5">
         <VisionCard
           title="Our Vision"
           subtitle="FROM DIRECTOR'S DESK"

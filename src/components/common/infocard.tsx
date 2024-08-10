@@ -1,19 +1,19 @@
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa";
 import Image from "next/image";
 
-// Step 1: Define TypeScript interface for props
+
 interface InfoCardProps {
   imageUrl: string;
   altText: string;
   name: string;
   role: string;
   email: string;
-  phone?: string; // Optional
-  linkedinUrl?: string; // Nullable
-  githubUrl?: string; // Nullable
+  phone?: string;
+  linkedinUrl?: string; 
+  githubUrl?: string; 
 }
 
-// Step 2: Update the component to accept props
+
 export default function InfoCard({
   imageUrl,
   altText,
