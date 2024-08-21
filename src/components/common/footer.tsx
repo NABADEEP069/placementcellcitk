@@ -62,7 +62,7 @@ const clubLinks = [
     link: "https://codingclub.cit.ac.in/",
   },
   {
-    name: "Construction Technology",
+    name: "Konstruct Club",
     link: "https://cit.ac.in",
   },
   {
@@ -156,7 +156,7 @@ export default function Footer() {
           </p>
         </div>
         <h6 className="text-center text-white text-xs mt-9">
-          Developed and managed by{" "}
+          Developed and Managed by{" "}
           <strong>Placement Cell, CITK </strong>
         </h6>
       </div>

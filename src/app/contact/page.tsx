@@ -8,7 +8,7 @@ export default function Page() {
     <main className="min-h-screen p-5 space-y-5">
       <section className="bg-gradient-to-r from-teal-100 to-blue-50 flex flex-col items-center px-7 py-5 rounded-lg">
         <div className="w-full flex justify-center mb-5">
-          <h1 className="text-5xl text-center">TPO</h1>
+          <h1 className="text-5xl text-center">Training & Placement Officer</h1>
         </div>
 
         <div className="w-full flex justify-center mb-5">
