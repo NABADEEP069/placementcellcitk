@@ -21,18 +21,16 @@
   background: #555;
 }
 
-
-@keyframes slide-up {
+@keyframes slide-left {
   0% {
-    transform: translateY(100%);
+    transform: translateX(-100%);
   }
 
   100% {
-    transform: translateY(-100%);
+    transform: translateX(100%);
   }
 }
 
-.animate-slide-up {
-  animation: slide-up 20s linear infinite;
-  height: 100%;
+.animate-slide-left {
+  animation: slide-left 20s linear infinite;
 }

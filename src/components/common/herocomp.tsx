@@ -4,7 +4,10 @@ import { useEffect, useState } from "react";
 import { FaDownload, FaUserPlus } from "react-icons/fa";
 import RecruitmentForm from "../home/recruitmentform";
 
-const images = ["/test/homepage-1 CITK.jpg", "/test/CIT-Kokrajhar-celebrates-second-convocation-5.jpeg"];
+const images = [
+  "/test/homepage-1 CITK.jpg",
+  "/test/CIT-Kokrajhar-celebrates-second-convocation-5.jpeg",
+];
 
 export default function HeroComp() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -13,7 +16,7 @@ export default function HeroComp() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => (current + 1) % images.length);
-    }, 7000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -36,11 +39,17 @@ export default function HeroComp() {
         ))}
       </div>
       <div className="absolute top-0 bottom-0 w-full flex items-center justify-center">
-        <div className="px-5 md:px-20 text-center bg-black bg-opacity-30 py-5 md:py-10 rounded-2xl">
-          <h1 className="text-3xl md:text-5xl font-bold text-white">
+        <div className="px-5 md:px-20 text-center py-5 md:py-10 rounded-2xl">
+          <h1
+            className="text-3xl md:text-6xl font-bold text-white"
+            style={{ textShadow: "3px 3px 10px rgba(0, 0, 0, 0.8)" }}
+          >
             TRAINING & PLACEMENT CELL
           </h1>
-          <p className="text-white mt-2 md:mt-5 text-xl md:text-3xl uppercase">
+          <p
+            className="text-white mt-2 md:mt-5 text-xl md:text-3xl uppercase font-semibold"
+            style={{ textShadow: "3px 3px 10px rgba(0, 0, 0, 0.8)" }}
+          >
             Central Institute of Technology, Kokrajhar
           </p>
         </div>

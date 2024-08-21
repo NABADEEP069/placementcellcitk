@@ -18,12 +18,6 @@ export default function Home() {
           image="/director-2023.jpg"
         />
         <CardOne />
-        <VisionCard
-          title="Our Vision"
-          subtitle="FROM DIRECTOR'S DESK"
-          description="The Training and Placement Cell of the Central Institute of Technology Kokrajhar serves as a bridge between academia and industry, facilitating a seamless transition for our students into the professional realm. We understand the pivotal role of that recruiters play in identifying and harnessing talent, and we are eager to forge lasting partnership that benefit both our students and your organization."
-          image="/director-2023.jpg"
-        />
       </div>
     </main>
   );

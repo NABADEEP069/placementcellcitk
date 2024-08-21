@@ -8,7 +8,7 @@ export default function Page() {
     <main className="min-h-screen p-5 space-y-5">
       <section className="bg-gradient-to-r from-teal-100 to-blue-50 flex flex-col items-center px-7 py-5 rounded-lg">
         <div className="w-full flex justify-center mb-5">
-          <h1 className="text-5xl text-center">TPO & Faculty Members</h1>
+          <h1 className="text-5xl text-center">TPO</h1>
         </div>
 
         <div className="w-full flex justify-center mb-5">
@@ -23,8 +23,11 @@ export default function Page() {
             phone={firstMember.phone}
           />
         </div>
+      </section>
 
-        <div className="w-full sm:w-5/6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+      <section className="px-5 sm:px-16 py-5 space-y-5 bg-gradient-to-r from-blue-100 to-teal-200 rounded-lg">
+        <h1 className="text-5xl text-center">Faculty Members</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           {otherMembers.map((member) => (
             <InfoCard
               key={member.email}

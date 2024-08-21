@@ -30,21 +30,13 @@ export default function RecruitmentForm({
           </div>
           <div className="w-full h-12 flex justify-center items-center gap-10 text-sm font-bold">
             <button className="bg-primary px-5 py-2 rounded-md border-2 uppercase hover:bg-white hover:text-black hover:border-primary hover:scale-105 duration-300 bg-opacity-90 ">
-              <a
-                href="https://forms.gle/Azjupqg9ykPc6mN27"
-                target="_blank"
-                className="flex items-center gap-2"
-              >
+              <a href="#" target="_blank" className="flex items-center gap-2">
                 <FaGoogleDrive className="text-lg" />
                 Placement Form
               </a>
             </button>
             <button className="bg-primary px-5 py-2 rounded-md border-2 uppercase hover:bg-white hover:text-black hover:border-primary hover:scale-105 duration-300 bg-opacity-90 flex items-center gap-2">
-              <a
-                href="https://forms.gle/pUxM4Cqydvkc1vuX7"
-                target="_blank"
-                className="flex items-center gap-2"
-              >
+              <a href="#" target="_blank" className="flex items-center gap-2">
                 <FaGoogleDrive className="text-lg" />
                 Internship Form
               </a>
@@ -67,7 +59,7 @@ export default function RecruitmentForm({
                 href="mailto:tnpcell@cit.ac.in"
                 className="text-blue-500 hover:underline"
               >
-                tnp@cit.ac.in  
+                tnp@cit.ac.in
               </a>{" "}
               or Contact our respective TPC&apos;s. Thank you for considering
               Central Institute of Technology Kokrajhar as your preferred
