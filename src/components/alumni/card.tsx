@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import DetailCard from "./detailcard";
 
-// Step 1: Define Props
+
 interface CardProps {
   data: {
     imageUrl: string;
@@ -14,7 +14,6 @@ interface CardProps {
   };
 }
 
-// Helper function to truncate description
 const truncateDescription = (description: string, wordLimit: number) => {
   const words = description.split(" ");
   if (words.length > wordLimit) {
@@ -23,11 +22,10 @@ const truncateDescription = (description: string, wordLimit: number) => {
   return description;
 };
 
-// Step 2: Pass Props to Component
 export default function Card({ data }: CardProps) {
   const [isDetailCardVisible, setIsDetailCardVisible] = useState(false);
 
-  const truncatedDescription = truncateDescription(data.description, 15); // Truncate to 15 words
+  const truncatedDescription = truncateDescription(data.description, 15); 
 
   const handleDetailsClick = () => {
     setIsDetailCardVisible(true);
