@@ -13,7 +13,7 @@ const academicprogramdata = [
   },
   {
     title: "Industrial Exposure",
-    info: "Students are exposed to latest industry practices through several industrial visits during their course. Students are also encouraged to undergo industrial training during their summer vacations.",
+    info: "Students are exposed to latest industry practices through several industrial visits during their course. Students are also encouraged to undergo industrial training during their summer vacations.", 
   },
   {
     title: "Institute programs",
