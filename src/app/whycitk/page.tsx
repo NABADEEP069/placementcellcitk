@@ -17,7 +17,7 @@ export default function Page() {
           <CardTwo
             paragraphs={[
               "B.Tech Entrance at CIT Kokrajhar is based on JEE Mains score or CITKEE score. As the students are admitted through the esteemed JEE Mains and represents the top 2% of the candidates that appear for the exam nationwide, they are handpicked from the garden of knowledge and critical thinking.",
-              "Admissions to M.Tech program is made throuh Graduate Aptitude Test Engineering (GATE) and Centralized Couselling for M.Tech.",
+              "Admissions to M.Tech program is made through Graduate Aptitude Test Engineering (GATE) and Centralized Counseling for M.Tech.",
               "These students are enriched with both qualitative and quantitative skills, thus they make up for the best in class.",
             ]}
           />
@@ -26,8 +26,8 @@ export default function Page() {
         return (
           <CardTwo
             paragraphs={[
-              "The Institute is privileged to host faculty who have distinguished themselves as teachers, researchers, and consultants of extraordinary calibre. Faculty members at the institute have acquired years of research and teaching experience in world-class institutions across the globe, and themselves are products of some of the most hallowed institutions in the India. In addition, many have substantial industrial experience.",
-              "Apart from delivering quality education,they motivate students to engage in cutting edge research and are highly inclined towards ideation and innovation. Our faculty have published various national and international journals and conference proceedings and organized several workshops.",
+              "The Institute is privileged to host faculty who have distinguished themselves as teachers, researchers, and consultants of extraordinary calibre. Faculty members at the institute have acquired years of research and teaching experience in world-class institutions across the globe, and themselves are products of some of the most hallowed institutions in India. In addition, many have substantial industrial experience.",
+              "Apart from delivering quality education, they motivate students to engage in cutting-edge research and are highly inclined towards ideation and innovation. Our faculty have published various national and international journals and conference proceedings and organized several workshops.",
             ]}
           />
         );
@@ -35,66 +35,65 @@ export default function Page() {
         return (
           <CardTwo
             paragraphs={[
-              "Projects are an integral part of the education program. Students are required to do group projects/research in many courses that they are taught. Students are also provided with an option of the independent study which enables them to do research in the field of their interest.",
+              "Projects are an integral part of the education program. Students are required to do group projects/research in many courses that they are taught. Students are also provided with an option for independent study which enables them to do research in the field of their interest.",
             ]}
           />
         );
-      case "Student Clubs":
+      case "Our Clubs":
         return (
           <CardTwo
             paragraphs={[
-              "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
-              "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
+              "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures, hardware hackathons, and problem-solving using R&D, IoT, etc. Konstruct (Civil Society of Innovative Engineers) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting workshops for Civil engineering students.",
+              "Our Coding clubs regularly organize coding competitions on various platforms to help the students strengthen their coding skills. The AI and Developers Clubs of CIT Kokrajhar frequently organize workshops on trending technologies in Machine Learning and Web/Android Development respectively. Our students are honing their skills on websites like Topcoder, SPOJ, CodeChef, etc. in various languages. Apart from this, students have won many hackathons across the nation.",
             ]}
           />
         );
-        case "R&D Activities":
+      case "R&D Activities":
         return (
           <CardTwo
             paragraphs={[
-              "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
-              "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
+              "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures, hardware hackathons, and problem-solving using R&D, IoT, etc. Konstruct (Civil Society of Innovative Engineers) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting workshops for Civil engineering students.",
+              "Our Coding clubs regularly organize coding competitions on various platforms to help the students strengthen their coding skills. The AI and Developers Clubs of CIT Kokrajhar frequently organize workshops on trending technologies in Machine Learning and Web/Android Development respectively. Our students are honing their skills on websites like Topcoder, SPOJ, CodeChef, etc. in various languages. Apart from this, students have won many hackathons across the nation.",
             ]}
           />
         );
-        case "Infrastructure":
-          return (
-            <CardTwo
-              paragraphs={[
-                "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
-                "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
-              ]}
-            />
-          );
-          case "Library":
-            return (
-              <CardTwo
-                paragraphs={[
-                  "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
-                  "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
-                ]}
-              />
-            );
-            case "Industrial Training":
-              return (
-                <CardTwo
-                  paragraphs={[
-                    "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
-                    "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
-                  ]}
-                />
-              );
+      case "Infrastructure":
+        return (
+          <CardTwo
+            paragraphs={[
+              "CIT Kokrajhar is equipped with state-of-the-art infrastructure to facilitate quality education and research. The campus includes modern classrooms, well-equipped labs, a central library, sports facilities, and hostels. The institute also provides high-speed internet access across the campus.",
+              "The facilities are continuously updated to keep pace with the latest advancements, providing students and faculty with an environment conducive to learning and innovation.",
+            ]}
+          />
+        );
+      case "Library":
+        return (
+          <CardTwo
+            paragraphs={[
+              "The central library at CIT Kokrajhar is a treasure trove of knowledge with an extensive collection of books, journals, and digital resources. It provides access to numerous online databases and is equipped with a modern digital library section to support research and learning.",
+              "The library is open to all students and faculty and is a hub for academic activities, including research, study sessions, and knowledge sharing.",
+            ]}
+          />
+        );
+      case "Industrial Training":
+        return (
+          <CardTwo
+            paragraphs={[
+              "CIT Kokrajhar provides its students with ample opportunities for industrial training to bridge the gap between academic knowledge and real-world applications. Students undergo internships and training in various industries to gain hands-on experience and practical skills relevant to their fields of study.",
+              "These programs are designed to prepare students for successful careers in their respective fields by exposing them to real-world challenges and work environments.",
+            ]}
+          />
+        );
       case "All Round Development":
         return (
           <CardTwo
             paragraphs={[
-              "Participation in Extracurricular Activities throughout the year leads to 360 degree development of an individual. Students also participate in NSS and NCC and spread awareness in the society.",
-              "To promote the cause of technology and to ignite the young talents of our country, the institute celebrates its technical fest annually, named ‘Techcracy’. Since the first chapter of Techcracy, mass convergence of students from all over the country in different events, workshops and seminars have increased in leaps and bounds. It has also hosted a glut of talks and symposiums of some of very distinguished personalities availing some very praiseworthy and polite remarks from them about the institute and its students which has boosted our students with a lot more zeal and enthusiasm.",
-              "The cadence of life touches right note when it blossoms with all colors. Brushing of all shades of human emotion and artistic flair plays an important role in an all-round development. Our cultural fest Ecstasy provides opportunity to all the students for the realization of this very purpose. The event is a culmination of sound and lights, of music and arts, of dances and drama, of thoughts and words, the perfect place to bring out the artist in everyone and to break the rut of daily life.",
+              "Participation in Extracurricular Activities throughout the year leads to 360-degree development of an individual. Students also participate in NSS and NCC and spread awareness in society.",
+              "To promote the cause of technology and to ignite the young talents of our country, the institute celebrates its technical fest annually, named ‘Techcracy’. Since the first chapter of Techcracy, mass convergence of students from all over the country in different events, workshops, and seminars has increased in leaps and bounds. It has also hosted a glut of talks and symposiums of some very distinguished personalities availing some very praiseworthy and polite remarks from them about the institute and its students which have boosted our students with a lot more zeal and enthusiasm.",
+              "The cadence of life touches the right note when it blossoms with all colors. Brushing off all shades of human emotion and artistic flair plays an important role in all-round development. Our cultural fest Ecstasy provides an opportunity for all the students for the realization of this very purpose. The event is a culmination of sound and lights, of music and arts, of dances and drama, of thoughts and words, the perfect place to bring out the artist in everyone and to break the rut of daily life.",
             ]}
           />
         );
-        
       default:
         return null; 
     }
@@ -146,13 +145,13 @@ export default function Page() {
           </button>
           <button
             className={`px-4 py-2 rounded transition ${
-              activeComponent === "Faculty"
+              activeComponent === " Our Faculty"
                 ? "bg-primary text-white font-bold"
                 : "bg-gray-200 text-black"
             }`}
             onClick={() => setActiveComponent("Faculty")}
           >
-            Faculty
+           Our Faculty
           </button>
           <button
             className={`px-4 py-2 rounded transition ${
@@ -162,7 +161,7 @@ export default function Page() {
             }`}
             onClick={() => setActiveComponent("Projects")}
           >
-            Projects
+           Student Projects
           </button>
           <button
             className={`px-4 py-2 rounded transition ${
@@ -172,7 +171,47 @@ export default function Page() {
             }`}
             onClick={() => setActiveComponent("Technical Clubs")}
           >
-            Technical Clubs
+           Our Technical Clubs
+          </button>
+          <button
+            className={`px-4 py-2 rounded transition ${
+              activeComponent === "Infrastructure"
+                ? "bg-primary text-white font-bold"
+                : "bg-gray-200 text-black"
+            }`}
+            onClick={() => setActiveComponent("Infrastructure")}
+          >
+          Our  Infrastructure
+          </button>
+          <button
+            className={`px-4 py-2 rounded transition ${
+              activeComponent === "R&D Activities"
+                ? "bg-primary text-white font-bold"
+                : "bg-gray-200 text-black"
+            }`}
+            onClick={() => setActiveComponent("R&D Activities")}
+          >
+            R&D Activities
+          </button>
+          <button
+            className={`px-4 py-2 rounded transition ${
+              activeComponent === "Library"
+                ? "bg-primary text-white font-bold"
+                : "bg-gray-200 text-black"
+            }`}
+            onClick={() => setActiveComponent("Library")}
+          >
+            Library
+          </button>
+          <button
+            className={`px-4 py-2 rounded transition ${
+              activeComponent === "Industrial Training"
+                ? "bg-primary text-white font-bold"
+                : "bg-gray-200 text-black"
+            }`}
+            onClick={() => setActiveComponent("Industrial Training")}
+          >
+            Industrial Training
           </button>
           <button
             className={`px-4 py-2 rounded transition ${
@@ -185,7 +224,7 @@ export default function Page() {
             All Round Development
           </button>
         </div>
-        <div className="mt-2">{renderComponent()}</div>
+        <div className="mt-6">{renderComponent()}</div>
       </div>
     </main>
   );

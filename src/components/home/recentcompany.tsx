@@ -9,10 +9,10 @@ const links = [
   //   href: "https://www.infosys.com/careers",
   //   title: "Infosys Careers - Join Our Team and Shape the Future of Technology",
   // },
-  // {
-  //   href: "https://careers.google.com",
-  //   title: "Google Careers - Innovate and Impact the World with Your Skills",
-  // },
+   {
+     href: "https://sih.gov.in/",
+     title: "Smart India Hackathon-2024 is live now",
+   },
   // {
   //   href: "https://www.microsoft.com/en-us/careers",
   //   title:
@@ -26,7 +26,7 @@ const links = [
 ];
 
 // Repeat links in order
-const repeatedLinks = Array.from({ length: 5 }, () => links).flat();
+const repeatedLinks = Array.from({ length: 2 }, () => links).flat();
 
 const LinkCarousel: React.FC = () => {
   return (

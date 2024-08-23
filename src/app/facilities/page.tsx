@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const facilities = [
   {
-    title: "Fully furnished AC rooms",
+    title: "Fully furnished AC rooms for interview",
     imageUrl: "/Facilities/acroom.jpeg",
   },
   {

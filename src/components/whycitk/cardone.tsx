@@ -1,7 +1,7 @@
 const academicprogramdata = [
   {
     title: "Teaching Methodology",
-    info: "Great emphasis during the classes is laid on core fundamentals and concepts. The examinations are designed to reflect the understanding of the fundamentals in practical fields.",
+    info: "Great emphasis during the classes is laid on core fundamentals and concepts. The examinations are designed to reflect the understanding of the fundamentals in practical fields. In the classroom, instructors engage students in discussions that challenge their understanding, prompting them to think critically about the material. Problem-solving sessions, case studies, and collaborative projects are integral to the learning process, enabling students to apply theoretical knowledge to practical scenarios.",
   },
   {
     title: "Teaching Assistantship",
@@ -19,10 +19,7 @@ const academicprogramdata = [
     title: "Institute programs",
     info: "To encourage the faculty and student interaction, we organize various seminars, lectures and workshops. Through these the students get an opportunity to interact with eminent personalities from the corporate world and the academia.",
   },
-  {
-    title: "Research & Development",
-    info: "It is mandatory for all B.Tech, M.tech and PhD students to take up projects under the supervision of the faculty. These comprise basic development and application oriented research projects. Students are also encouraged to publish papers in peer reviewed national and international conferences and journals.",
-  },
+  
 ];
 
 export default function CardOne() {
