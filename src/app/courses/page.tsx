@@ -2,73 +2,73 @@ import ClubCard from "@/components/whycitk/clubcard";
 
 const btechCourses = [
   {
-    name: "Computer Science & Engineering.",
+    name: "B.tech in Computer Science & Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Electronics & Communication Engineering.",
+    name: "B.tech in Electronics & Communication Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Civil Engineering.",
+    name: "B.tech in Civil Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Food Engineering & Technology.",
+    name: "B.tech in Food Engineering & Technology.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Instrumentation Engineering.",
+    name: "B.tech in Instrumentation Engineering.",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Multimedia Communication & Design.",
+    name: "B. des in Multimedia Communication & Design.",
     imageUrl: "/cit-logo.png",
   },
 ];
 
 const mtechCourses = [
   {
-    name: "Computer Science & Engineering",
+    name: "M.tech in Computer Science & Engineering",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Food Engineering & Technology",
+    name: "M.tech in Food Engineering & Technology",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Green Energy Technology (GET)",
+    name: "M.tech in Green Energy Technology (GET)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Water Resources and Hydraulic Engineering (WRH)",
+    name: "M.tech in Water Resources and Hydraulic Engineering (WRH)",
     imageUrl: "/cit-logo.png",
   },
 ];
 
 const diplomaCourses = [
   {
-    name: "Electronics and Communication Engineering (ECE)",
+    name: "Diploma in Electronics and Communication Engineering (ECE)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Computer Science and Engineering (CSE)",
+    name: "Diploma in Computer Science and Engineering (CSE)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Control and Instrumentation (CAI)",
+    name: "Diploma in Control and Instrumentation (CAI)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Food Processing Technology (FPT)",
+    name: "Diploma in Food Processing Technology (FPT)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Civil Engineering (CE)",
+    name: "Diploma in Civil Engineering (CE)",
     imageUrl: "/cit-logo.png",
   },
   {
-    name: "Animation & Multimedia Technology (AMT)",
+    name: "Diploma in Animation & Multimedia Technology (AMT)",
     imageUrl: "/cit-logo.png",
   },
 ];

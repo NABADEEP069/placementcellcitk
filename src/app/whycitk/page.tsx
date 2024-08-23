@@ -39,7 +39,7 @@ export default function Page() {
             ]}
           />
         );
-      case "Technical Clubs":
+      case "Student Clubs":
         return (
           <CardTwo
             paragraphs={[
@@ -48,6 +48,42 @@ export default function Page() {
             ]}
           />
         );
+        case "R&D Activities":
+        return (
+          <CardTwo
+            paragraphs={[
+              "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
+              "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
+            ]}
+          />
+        );
+        case "Infrastructure":
+          return (
+            <CardTwo
+              paragraphs={[
+                "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
+                "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
+              ]}
+            />
+          );
+          case "Library":
+            return (
+              <CardTwo
+                paragraphs={[
+                  "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
+                  "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
+                ]}
+              />
+            );
+            case "Industrial Training":
+              return (
+                <CardTwo
+                  paragraphs={[
+                    "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter college level. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts distinguished lectures , hardware hackathons and problem solving using R&D, IoT etc. Konstruct (Civil Society of Innovative Engineers ) of CIT Kokrajhar works on renewable sources of energy and conducts AutoCAD, design and drafting etc workshops for Civil engineering students.",
+                    "Our Coding clubs regularly organises coding competitions on various platforms to help the students strengthen their coding skills. The AI and Devlopers Clubs of CIT Kokrajhar frequently organise workshops on trending technologies in Machine learning and Web/Android Development respectively.Our students are honing their skills on websites like Topcoder,SPOJ, CodeChef etc. in various languages. Apart from this, students won many hackathons across the nation.",
+                  ]}
+                />
+              );
       case "All Round Development":
         return (
           <CardTwo
@@ -58,8 +94,9 @@ export default function Page() {
             ]}
           />
         );
+        
       default:
-        return null; // Or any default component or message
+        return null; 
     }
   };
 

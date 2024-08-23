@@ -23,8 +23,7 @@ export default function CardOne() {
             talent in engineering and technology. Our accomplished alumni are
             living proof of our tradition of excellence, excelling across
             diverse domains from engineering to research and development.
-            Since 2006, CIT Kokrajhar has been dedicated to producing diploma holders graduates and post graduates who possess not only strong theoretical knowledge but also practical skills. Our students’ unwavering commitment to innovation, problem solving, and adaptability sets them apart. As the training and placement officer, my team and I are committed to bridging the academia industry gap. We ensure our students are industry ready through rigorous training, workshops and internships, fostering holistic development.
-            Thank you for considering CIT Kokrajhar as your recruitment destination. We eagerly anticipate a mutually beneficial partnership, confident that our students will elevate your organization’s growth and success. For inquires or recruitment activities, please contact our Placement Cell.
+            
 
 
 Welcome to CIT Kokrajhar, where talent meets opportunity!

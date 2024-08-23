@@ -12,34 +12,59 @@ const tabs = [
     name: "Home",
     path: "/",
   },
+  
+  {
+    name: "Why CITk",
+    path: "/whycitk"
+  },
+
   {
     // Drowdown
-    name: "Academics",
+    name: "Academic Programme",
     path: "#",
     dropdown: [
       {
-        name: "Courses",
+        name: "Programme details",
         path: "/courses",
       },
       {
-        name: "Course Strength",
+        name: "Student strength",
         path: "/coursestrength",
       },
       
     ],
   },
   {
-    name: "Recruiters",
-    path: "/recruiters",
+    name: "Placement Records",
+    path: "#",
+    dropdown: [
+      {
+        name: "Placement report 2023-24",
+        path: "",
+      },
+      {
+        name: "Placement report 2022-23",
+        path: "",
+      },
+      {
+        name: "Placement report 2021-22",
+        path: "",
+      },
+      {
+        name: "Our Alumni",
+        path: "/alumni",
+      },
+      
+    ],
   },
  
 
   {
-    name: "Contact Us",
+    name: "To Recruit",
     path: "#",
     dropdown: [
       {
-        name: "Our Team",
+        name: "Contact Us",
         path: "/contact",
       },
       {

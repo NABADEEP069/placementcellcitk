@@ -7,11 +7,11 @@ const facilities = [
     imageUrl: "/Facilities/acroom.jpeg",
   },
   {
-    title: "Conference Rooms ",
+    title: "Seminar Hall for PPT",
     imageUrl: "/Facility/F-3.jpg",
   },
   {
-    title: "Well-equipped Computer Labs",
+    title: "Guest House for recruiters",
     imageUrl: "/Facility/F-5.jpg",
   },
   {
