@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Placement Cell CITK",
-  description: "...",
+  description: "Official Placement Cell of CITK",
 };
 
 export default function RootLayout({

@@ -62,7 +62,7 @@ const btechCourses = [
   },
   {
     name: "B. des in Multimedia Communication & Design.",
-    subjects: ["Data Structures", "Algorithms", "Operating Systems", "Networks"],
+    subjects: ["3D Modeling", "Graphic Design", "UI/UX Design", "Design studio","Introduction to game design","Animation Production design"],
   },
   
   
@@ -72,19 +72,23 @@ const btechCourses = [
 const mtechCourses = [
   {
     name: "M.tech in Computer Science & Engineering",
-    subjects: ["Advanced Algorithms", "Machine Learning", "Cloud Computing"],
+    subjects: ["Advanced DBMS", "Machine Learning", "Advanced Computer Network","Artificial Intelligence","Data Mining and Data Warehousing."],
   },
   {
     name: "M.tech in Food Engineering & Technology",
-    subjects: ["Advanced Algorithms", "Machine Learning", "Cloud Computing"],
+    subjects: ["Research Methodology and IPR", "Recent Trends in Food Engineering and Technology", "Recent Advances in Enzyme and Microbial Technology","Emerging Food Processing Technologies","Recent Trends in Food Safety and Quality Management"],
   },
   {
     name: "M.tech in Green Energy Technology (GET)",
-    subjects: ["Advanced Algorithms", "Machine Learning", "Cloud Computing"],
+    subjects: ["Green Energy Technology", "Energy & Environment","Fundamentals of Energy Technology","Energy Management & Auditing","Numerical Methods for Energy Systems","Power Plant Engineering","Fuels & Combustions","Bio-energy & Conversion Systems","Wind and Hydro Power Systems","Solar Thermal Energy Conversions"],
   },
   {
     name: "M.tech in Water Resources and Hydraulic Engineering (WRH)",
-    subjects: ["Advanced Algorithms", "Machine Learning", "Cloud Computing"],
+    subjects: ["Research Methodology", "Water resources systems analysis", "Hydropower engineering","Human resource Management for water resources projects","Human resource Management for water resources projects","Advanced computational hydraulics"],
+  },
+  {
+    name: "M.Des in Multimedia Communication & Design ",
+    subjects: ["Multimedia Communication & Design", "Understanding Aesthetics: Analytical studies","Game Design for digital media","Animation & Visual Effects","Animation Production Techniques","3D Sculpture & Visualization Techniques"],
   },
   
 ];
@@ -92,27 +96,27 @@ const mtechCourses = [
 const diplomaCourses = [
   {
     name: "Diploma in Computer Science and Engineering (CSE)",
-    subjects: ["Analog Electronics", "Digital Systems", "Microprocessors"],
+    subjects: ["System Programming", "Computer Architecture and Organization", "Operating System","Database Management Systems","Cryptography & Network Security","Software Engineering"],
   },
   {
     name: "Diploma in Electronics and Communication Engineering (ECE)",
-    subjects: ["Analog Electronics", "Digital Systems", "Microprocessors"],
+    subjects: ["Electronic Devices and Circuits", "1 Microcontroller and Applications", "Digital Electronicss","Embedded Systems","Mobile and Wireless Communication","Power Electronics","Electronic Measurements and Instrumentation"],
   },
   {
     name: "Diploma in Control and Instrumentation (CAI)",
-    subjects: ["Analog Electronics", "Digital Systems", "Microprocessors"],
+    subjects: ["Electrical Circuits and Networks", "Electronics Devices and Circuits", "Microprocessors","Control Systems","Biomedical Instrumentation","Industrial Instrumentation"],
   },
   {
     name: "Diploma in Food Processing Technology (FPT)",
-    subjects: ["Analog Electronics", "Digital Systems", "Microprocessors"],
+    subjects: ["FOOD PRODUCT TECHNOLOG", "BASICS OF FOOD CHEMISTRY", "FOOD STORAGE AND PACKAGINGs","FOOD QUALITY CONTROL","ELEMENTS OF FOOD ENGINEERING"],
   },
   {
     name: "Diploma in Civil Engineering (CE)",
-    subjects: ["Analog Electronics", "Digital Systems", "Microprocessors"],
+    subjects: ["Construction Materials", "Surveying", "Water Supply & Sanitary Installation","Structural Analysis","Construction Technology","Concrete Technology","Design of steel structures","Design of RCC Structures"],
   },
   {
     name: "Diploma in Animation & Multimedia Technology (AMT)",
-    subjects: ["Analog Electronics", "Digital Systems", "Microprocessors"],
+    subjects: ["Art Fundamentals and Graphics Design", "2D Animation Techniques", "3D Animation","Introduction to Multimedia Design ","Audio Video Editing","Lighting in Animation","Compositing & Visual Effects"],
   },
   
   
