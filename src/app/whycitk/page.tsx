@@ -35,11 +35,11 @@ export default function Page() {
         return (
           <CardTwo
             paragraphs={[
-              "Projects are an integral part of the education program. Students are required to do group projects/research in many courses that they are taught. Students are also provided with an option for independent study which enables them to do research in the field of their interest.",
+              "Students are required to engage in group projects and research in many of the courses they take. These collaborative efforts allow them to apply theoretical knowledge to real-world problems, fostering practical skills, teamwork, and interdisciplinary learning.In addition to group projects, CITK offers students the option to pursue independent study, enabling them to explore research in fields of personal interest. Guided by faculty mentors, students engage in self-directed learning, conducting original research that contributes to their chosen field. This combination of group and independent research equips CITK students with the skills and experience necessary for advanced studies and professional success.",
             ]}
           />
         );
-      case "Our Clubs":
+      case "Technical Clubs":
         return (
           <CardTwo
             paragraphs={[
@@ -63,6 +63,7 @@ export default function Page() {
             paragraphs={[
               "CIT Kokrajhar is equipped with state-of-the-art infrastructure to facilitate quality education and research. The campus includes modern classrooms, well-equipped labs, a central library, sports facilities, and hostels. The institute also provides high-speed internet access across the campus.",
               "The facilities are continuously updated to keep pace with the latest advancements, providing students and faculty with an environment conducive to learning and innovation.",
+              "The institute’s commitment to maintaining cutting-edge infrastructure is evident in its continuous upgrades and adoption of the latest technologies. This focus on modernity and innovation not only enhances the academic environment but also positions CIT Kokrajhar as a leading institution in the North East, providing a platform for students and faculty to excel in their respective fields."
             ]}
           />
         );
@@ -72,6 +73,7 @@ export default function Page() {
             paragraphs={[
               "The central library at CIT Kokrajhar is a treasure trove of knowledge with an extensive collection of books, journals, and digital resources. It provides access to numerous online databases and is equipped with a modern digital library section to support research and learning.",
               "The library is open to all students and faculty and is a hub for academic activities, including research, study sessions, and knowledge sharing.",
+              "The central library at CIT Kokrajhar is a knowledge hub, offering an extensive collection of books, journals, and digital resources that support both academic and research activities. High-speed internet access is available across the campus, ensuring that students and faculty have seamless connectivity for research, learning, and collaboration. Additionally, the campus features excellent sports facilities and comfortable hostels that contribute to a well-rounded student experience."
             ]}
           />
         );

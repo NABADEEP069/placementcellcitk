@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Author: Debanand Singha */}
+      {/* Author: Nabadeep & Prashant */}
       <body className={inter.className}>
         <NextTopLoader
           color="#98F5F9"

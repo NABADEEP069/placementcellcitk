@@ -12,7 +12,7 @@ const facilities = [
   },
   {
     title: "Guest House for recruiters",
-    imageUrl: "/Facility/F-5.jpg",
+    imageUrl: "/Facility/guest-house photo- citk - Copy.jpg",
   },
   {
     title:

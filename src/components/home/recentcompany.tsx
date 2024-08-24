@@ -5,10 +5,6 @@ const links = [
     href: "https://www.tcsion.com/hub/national-qualifier-test/",
     title: "TCS iON NQT National Qualifier Test",
   },
-  // {
-  //   href: "https://www.infosys.com/careers",
-  //   title: "Infosys Careers - Join Our Team and Shape the Future of Technology",
-  // },
    {
      href: "https://sih.gov.in/",
      title: "Smart India Hackathon-2024 is live now",

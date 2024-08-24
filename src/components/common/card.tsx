@@ -13,6 +13,9 @@ export default function VisionCard({
   description,
   image,
 }: CardProps) {
+
+
+  
   return (
     <div className="flex flex-col sm:flex-row sm:justify-center items-center relative">
       <div className="sm:h-[16.5rem] sm:w-[16.5rem] bg-gray-300 sm:absolute left-72 md:left-32 sm:rounded-2xl rounded-t-2xl overflow-hidden shadow-xl">

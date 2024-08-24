@@ -10,6 +10,15 @@
       "phone": "+91-9957817471"
     },
     {
+      "imageUrl": "/dr-agile-methew.jpg",
+      "altText": "Dr. Agile Methew",
+      "name": "Dr. Agile Methew",
+      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ECE)",
+      "email": "tnp@cit.ac.in",
+      "linkedinUrl": "https://www.linkedin.com/in/agile-mathew-7365a6181/",
+      "phone": "+91-9957817471"
+    },
+    {
       "imageUrl": "/faculty/BKC.png",
       "altText": "MR. BIKRAMJIT CHOUDHARY",
       "name": "MR. BIKRAMJIT CHOUDHARY",
@@ -19,6 +28,7 @@
       "linkedinUrl": "https://www.linkedin.com/in/bikramjit-choudhury-a75146168/",
       "phone": "+91-8638005168"
     },
+  
     {
       "imageUrl": "/faculty/bhaskar saha.jpg",
       "altText": "DR. BHASKAR SAHA",

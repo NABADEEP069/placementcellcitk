@@ -39,15 +39,15 @@ const tabs = [
     path: "#",
     dropdown: [
       {
-        name: "Placement report 2023-24",
+        name: "Placement Records 2023-24",
         path: "",
       },
       {
-        name: "Placement report 2022-23",
+        name: "Placement Records 2022-23",
         path: "",
       },
       {
-        name: "Placement report 2021-22",
+        name: "Placement Records 2021-22",
         path: "",
       },
       {
