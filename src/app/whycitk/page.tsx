@@ -16,25 +16,22 @@ export default function Page() {
         return ( <div>
           <CardTwo
             paragraphs={[
-             "Bachelor of Technology (Direct Entry)SELECTION PROCESS:  Candidates seeking admission to B. Tech through Direct Entry Scheme must qualify either CITDEE conducted by CIT Kokrajhar or JEE (Mains) conducted by National Testing Agency (NTA). 60% of intake is allotted for CITDEE and rest of the seats are allotted for JEE (Mains) qualified candidates.",
-              "SELECTION PROCESS:Candidates seeking admission to Diploma must qualify either Central Institute of Technology Entrance Examination (CITEE) conducted by CIT Kokrajhar or Polytechnic Admission Test (PAT) conducted by SCTE, Assam. 85% of intake is allotted for CITEE and rest of the seats are allotted for PAT qualified candidates.",
-              "CITDEE:    The CITDEE is conducted every year by CIT Kokrajhar for entry into B. Tech programme. It is of three hours duration and consists of multiple choice questions with a total of 125 marks. The question paper consists of four (4) sections: A, B, C & D. Section A consists of twenty five questions in Physics, Section B consists of twenty five questions in Chemistry, Section C consists of fifty questions in Mathematics and Section D consists of twenty-five questions in English Communication Skill. Each question carries one mark.",
-              "SELECTION PROCESS:Candidates seeking admission to B. Des programme through Direct Entry Scheme must qualify either Central Institute of Technology Bachelor of Design Admission Test (CITBDAT) conducted by CIT Kokrajhar or Undergraduate Common Entrance Examination of Design (UCEED) conducted by IIT Bombay. 60% of intake is allotted for CITBDAT and rest of the seats are allotted for UCEED qualified candidates.",
-              "SELECTION PROCESS:Candidates seeking admission to M. Tech Programme must qualify either Central Institute M. Tech Entrance Examination CITMEE 2020 conducted by CIT Kokrajhar or the Graduate Aptitude Test in Engineering (GATE) conducted by IITs and IISc on behalf of National Coordination Board-GATE followed by personal interview to be conducted by respective Departments. GATE qualified candidates will be given preference.",
-              "SELECTION PROCESS:For getting admission into M. Des programme, the candidates must qualify either Central Institute of Technology Master of Design Admission Test (CITMDAT)  conducted by CIT Kokrajhar or Common Entrance Examination for Design (CEED).",
-              "Ph.D Programme SELECTION PROCESS: The selection process is through a Written Test followed by Personal Interview.",
+             "The institution offers a broad spectrum of educational programs tailored to various interests and career goals. At the diploma level, students can pursue specialized courses in Engineering, Animation and Multimedia, with a range of intake capacities for each field. The undergraduate offerings include Bachelor of Technology (B. Tech) degrees in disciplines such as Electronics and Communication, Computer Science, and Civil Engineering, with options for direct, vertical, and lateral entry based on prior qualifications. Additionally, the Bachelor of Design (B. Des) program focuses on Multimedia Communication and Design, available through direct and vertical entry pathways.",
+              "For postgraduate studies, the institution provides Master of Technology (M. Tech) programs in areas such as Water Resources, Green Energy Technology, and Food Engineering, as well as a Master of Design (M. Des) in Multimedia Communication and Design. The Ph.D. program is extensive, covering various research areas in Engineering, Science, Humanities, and Design, with specific eligibility criteria for each discipline. Admission requirements include educational qualifications, age limits, and other criteria tailored to ensure a well-rounded and inclusive approach to higher education.",
+            
+              
             ]}
           />
-          <div className="flex justify-center mt-6">
-            <a
-              href="http://www.cit.ac.in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-2 rounded-lg text-sm bg-blue-600 text-white text-center shadow-lg hover:bg-blue-700 transition"
-            >
-              Click here for more information
-            </a>
-          </div>
+          <div className="flex justify-center mt-12 mb-14"> 
+                  <a
+                    href="/information_brouchure_diploma_degree_master_phd2024 (1).pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
+                  >
+                    For more information Click here
+                  </a>
+                </div>
         </div>
       );
          
@@ -56,44 +53,47 @@ export default function Page() {
             <div>
             <CardTwo
               paragraphs={[
-                "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hostnation.",
+                "At CIT Kokrajhar, a vibrant array of research projects reflects the institution's commitment to advancing knowledge across various fields. Dr. Sucharita Sen Maiti and Dr. Susmitha Wils K. are developing an innovative aptamer-based electrochemical biosensor for the rapid detection of colistin in food products, a project supported by the DST's Technology Development and Transfer (TDT) scheme with a generous grant of ₹45.65 lakh. In a parallel effort, Dr. Avik Mukherjee and Dr. Santosh Kumar are working on a biopolymer-based smart packaging system designed to indicate milk freshness.",
+                "Dr. Sandeep Kumar Srivastava's research delves into the fascinating properties of co-doped SnO2 compounds for Spintronics applications, funded by the UGC-DAE CSR with ₹2.13 lakh. Meanwhile, Dr. B. N. Parida's study on the MI-shielding effectiveness of xGnP-filled blends has received support from BRNS, totaling ₹25.33 lakh. Another notable project led by Dr. S. Kumar and Dr. A. Mukherjee explores non-toxic nanoformulations to extend the shelf life of mandarin oranges, with a grant of ₹31.85 lakh from DBT.",
+                "Mr. Pranjal Barman's ongoing work on the utilization of fly ash for geotechnical applications, supported by DST with ₹5.4 lakh, complements his earlier project on river bank filtration, which received ₹2.8 lakh from ASTEC. Dr. Gunajyoti Das's theoretical and experimental studies on amino acid sequences, backed by SERB-DST with ₹30.13 lakh, and Dr. Sandeep Kumar Srivastava's research on bit-patterned media for hard disk drives, funded by DST-SERB with ₹37.63 lakh, highlight the depth of research undertaken at CIT Kokrajhar.",
+                "n addition, the Department of Food Engineering and Technology has secured a substantial multi-institutional research grant of nearly ₹3 crores, involving collaborations with prestigious institutions such as IIT Guwahati, NIFTEM, NERIST, and the College of Horticulture and Forestry. The institute’s partnership with CSIR-IITR has also resulted in a significant research grant of approximately ₹46 lakh. The academic community at CIT Kokrajhar is further distinguished by its prolific output, with over 400 peer-reviewed publications accumulating 4800 citations in the past four years, and nearly 600 publications boasting more than 7000 citations overall. This vibrant research environment underscores CIT Kokrajhar's dedication to scholarly excellence and innovation.",
               ]}
             />
-            <div className="flex justify-center mt-6">
-              <a
-                 href="http://www.cit.ac.in" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 rounded-lg text-sm bg-blue-600 text-white text-center shadow-lg hover:bg-blue-700 transition"
-              >
-                Click here for more information
-              </a>
-            </div>
+              <div className="flex justify-center mt-7 mb-14"> 
+                  <a
+                    href="https://cit.ac.in/researches"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
+                  >
+                    For more information click here
+                  </a>
+                </div>
           </div>
           );
      
         
-      case "Student Clubs":
-        return (
-          <div>
-          <CardTwo
-            paragraphs={[
-              "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularly hosts y. Our students are honing their skills on websites like Topcoder, SPOJ, CodeChef, etc. in various languages. Apart from this, students have won many hackathons across the nation.",
-            ]}
-          />
-          <div className="flex justify-center mt-6">
-            <a
-              href="/technical_clubs.pdf" // Ensure this path matches where you placed the PDF
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-2 rounded-lg text-sm bg-blue-600 text-white text-center shadow-lg hover:bg-blue-700 transition"
-            >
-              Click here for more information
-            </a>
-          </div>
-        </div>
-        
-        );
+          case "Student Clubs":
+            return (
+              <div>
+                <CardTwo
+                  paragraphs={[
+                    "Central Institute of Technology, Kokrajhar (CITK) boasts a vibrant array of clubs, each contributing uniquely to the student experience and fostering diverse interests. The Google Developer Student Club (GDSC) CITK ignites innovation by empowering students through technology and entrepreneurship, creating a hub for learning and collaboration. The DevCom Club supports web and app development enthusiasts, offering a platform for all skill levels to grow through real-world projects and knowledge sharing. Meanwhile, the Cyber Security Club focuses on raising awareness and education about cybersecurity, organizing workshops and competitions to tackle critical issues like network security and ethical hacking. The Automation Club engages students in hands-on learning about robotics and automation technologies, sparking creativity through practical workshops and collaborative projects. The Robotics Club chronicles its journey of exploration and triumphs, driving interest in robotics. The Astrophysics Club captivates with its deep dives into the cosmos, hosting events like night sky gazing and national webinars on astrophysics. Xopun, the drama club, provides a creative outlet for students to explore their artistic talents through compelling performances and awareness programs. Lastly, SPIC MACAY KHOBAM celebrates India's rich cultural heritage through events and workshops that connect students with classical arts and traditions, such as the annual BWISAGU/Bihu celebration. Each club plays a crucial role in enriching campus life, fostering skills, and building a sense of community at CITK.",
+                  ]}
+                />
+                <div className="flex justify-center mt-7 mb-14">
+                  <a
+                    href="/whycitk/CITK-CLUBS-INFO.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
+                  >
+                    Download CITK Clubs Info PDF
+                  </a>
+                </div>
+              </div>
+            );
+          
 
 
 
@@ -102,19 +102,19 @@ export default function Page() {
             <div>
             <CardTwo
               paragraphs={[
-                "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding ectively. Our students are honing their skills on websites like Topcoder, SPOJ, CodeChef, etc. in various languages. Apart from this, students have won many hackathons across the nation.",
+                "The Training and Placement (T&P) Cell of CIT Kokrajhar, comprising 5 faculty and 18 student members from various departments, plays a pivotal role in facilitating industrial training and job placements. For the 2nd and 3rd-year students, the T&P Cell arranged summer and winter training sessions across diverse industries and organizations, spanning both private and government sectors, in December 2023 and June 2024. The placement data for the 2024 graduating batch highlights a robust record, with students securing positions in prominent companies. Notable placements include roles at AMUL, Pie Infocomm, and Teachnook, among others, with various branches represented. The total number of students placed was 59, with 69 offers extended. The T&P Cell’s efforts are reflected in the placement statistics over the past three years, showing an increase from 49 placements in 2021-22 to 75 in 2022-23, and a slight dip to 59 in 2023-24, while maintaining a median salary of 4 LPA. The cell has facilitated recruitment from 19 companies this year, demonstrating its continued commitment to enhancing career opportunities for CITK students.",
               ]}
             />
-            <div className="flex justify-center mt-6">
-              <a
-                href="/technical_clubs.pdf" // Ensure this path matches where you placed the PDF
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 rounded-lg text-sm bg-blue-600 text-white text-center shadow-lg hover:bg-blue-700 transition"
-              >
-                Click here for more information
-              </a>
-            </div>
+              <div className="flex justify-center mt-7 mb-14"> 
+                  <a
+                    href="16. CITK_T&P_Annual Report.docx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
+                  >
+                    Download Industrial Training Report
+                  </a>
+                </div>
           </div>
           
           );
@@ -124,19 +124,19 @@ export default function Page() {
               <div>
               <CardTwo
                 paragraphs={[
-                  "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding Club the nation.",
+                  "Central Institute of Technology, Kokrajhar (CITK) boasts one of the most advanced infrastructures in the North East region, blending modernity with functionality to provide an exceptional learning environment. The campus features state-of-the-art facilities, including well-equipped laboratories, cutting-edge research centers, and spacious classrooms designed for interactive learning. Students benefit from high-speed internet access, extensive library resources, and specialized facilities for various disciplines, including engineering, technology, and sciences. The institute's amenities extend beyond academics, with comfortable hostels, recreational areas, and well-maintained sports facilities promoting a balanced and enriching student life. The infrastructure at CITK not only supports academic excellence but also fosters innovation, collaboration, and overall personal development.",
                 ]}
               />
-              <div className="flex justify-center mt-6">
-                <a
-                  href="/technical_clubs.pdf" // Ensure this path matches where you placed the PDF
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-2 rounded-lg text-sm bg-blue-600 text-white text-center shadow-lg hover:bg-blue-700 transition"
-                >
-                  Click here for more information
-                </a>
-              </div>
+               <div className="flex justify-center mt-7 mb-14"> 
+                  <a
+                    href="https://www.cit.ac.in/institute-infrastructure"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
+                  >
+                    View More....
+                  </a>
+                </div>
             </div>
             
             );
@@ -151,17 +151,17 @@ export default function Page() {
                 <div>
                 <CardTwo
                   paragraphs={[
-                    "CIT Kokrajhar has several technical clubs which help students to get expertise in their field of interest and also host regular contests on inter-college levels. The Coding Club (Coding Society of CIT Kokrajhar) and Cyber Security Club of CIT Kokrajhar hold regular training and workshops for computer science engineering. The Robotics club regularlspectively. Our students are honing their skills on websites like Topcoder, SPOJ, CodeChef, etc. in various languages. Apart from this, students have won many hackathons across the nation.",
+                    "The Central Library at CIT Kokrajhar, spanning 22,000 square feet, is a cornerstone of the campus, offering a dynamic and supportive environment for learning and research. Equipped with over 111,000 physical books and more than 288,000 digital resources, including e-books, e-journals, and multimedia materials, it provides extensive academic support. The library is fully automated with RFID technology and SOUL 2.0 software, facilitating self-issue and return and ensuring security with dual anti-theft systems and CCTV surveillance. Its advanced services include Web OPAC for remote access, an Android app for easy library management, and a digital library with up-to-date facilities. The library also features a conference room, teacher study rooms, and a power backup system, ensuring continuous access to its resources. Innovative services like “Library on Demand” and a robust community outreach program further enhance its role in supporting academic excellence.",
                   ]}
                 />
-                <div className="flex justify-center mt-6">
+                <div className="flex justify-center mt-7 mb-14"> 
                   <a
-                    href="/technical_clubs.pdf" // Ensure this path matches where you placed the PDF
+                    href="http://centrallibrary.cit.ac.in/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-6 py-2 rounded-lg text-sm bg-blue-600 text-white text-center shadow-lg hover:bg-blue-700 transition"
+                     className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
                   >
-                    Click here for more information
+                    View More....
                   </a>
                 </div>
               </div>

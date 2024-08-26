@@ -16,52 +16,54 @@ function ClubCard({ name, subjects }: ClubCardProps) {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden">
-      <div className="p-5">
+    <div className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full">
+      <div className="flex-grow p-3">
         <h3 className="text-xl font-bold mb-3">{name}</h3>
-        <button
-          onClick={toggleDropdown}
-          className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300"
-        >
-          {isOpen ? "Hide Details" : "View Core Subjects"}
-        </button>
         {isOpen && (
           <ul className="mt-3">
             {subjects.map((subject, index) => (
-              <li key={index} className="text-gray-700">
+              <li key={index} className="text-gray-900">
                 - {subject}
               </li>
             ))}
           </ul>
         )}
       </div>
+      <button
+        onClick={toggleDropdown}
+        className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300 mb-5 mx-5"
+      >
+        {isOpen ? "Hide Details" : "View Core Subjects"}
+      </button>
     </div>
   );
+  
+  
 }
 
 const btechCourses = [
   {
-    name: "B.tech in Computer Science & Engineering.",
+    name: "B.tech in Computer Science and Engineering",
     subjects: ["AI", "Machine Learning", "Block chain", "Data structure and algorithm","Database management system","Computer architecture","Automata theory"],
   },
   {
-    name: "B.tech in Electronics & Communication Engineering.",
+    name: "B.tech in Electronics and Communication Engineering",
     subjects: ["VLSI Design", "Power Electronics", "Signal and Systems", "Control Systems"],
   },
   {
-    name: "B.tech in Civil Engineering.",
+    name: "B.tech in Civil Engineering ",
     subjects: ["Geotechnical engineering", "Building materials", "Design of structures and RCC", "Autocad"],
   },
   {
-    name: "B.tech in Food Engineering & Technology.",
+    name: "B.tech in  Food Engineering and Technology",
     subjects: ["Food Process Engineering", "Principles of Food Processing and Preservation", "Food Product Technology", "Food Packaging Technology","Food Analysis, Quality Control and Management"],
   },
   {
-    name: "B.tech in Instrumentation Engineering.",
+    name: "B.tech in Instrumentation Engineering",
     subjects: ["CONTROL SYSTEMS", "EMBEDDED SYSTEMS", "MICROPROCESSOR & MICROCONTROLLER", "ELECTRONIC INSTRUMENTATION","PROCESS CONTROL","BIOMEDICAL INSTRUMENTATION"],
   },
   {
-    name: "B. des in Multimedia Communication & Design.",
+    name: "B. des in Multimedia Communication and Design",
     subjects: ["3D Modeling", "Graphic Design", "UI/UX Design", "Design studio","Introduction to game design","Animation Production design"],
   },
   
@@ -128,10 +130,13 @@ export default function Page() {
       <div className="container mx-auto">
         <h1 className="text-5xl font-bold text-center">Courses</h1>
 
-        <div className="px-5 sm:px-10 mb-10 mt-5">
+        <div className="px-5 sm:px-2 mb-10 mt-5">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
             Undergraduate Programs
           </h2>
+          <h4 className="text-1xl sm:text-1xl font-bold text-center mb-1">
+           CIT Kokrajhar Offers  Undergraduate Programs in Computer Science and Engineering(CSE), Electronics and Communication Engineering (ECE), Civil Engineering (CE), Food Engineering and Technology(FET), Instrumentation Engineering(IE) and Multimedia Communication and Design(MCD).
+          </h4>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {btechCourses.map((course, index) => (
               <ClubCard
@@ -143,9 +148,12 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="px-5 sm:px-10 mb-10">
+        <div className="px-5 sm:px-2 mb-10 mt-5">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
             Masters Programs
+          </h2>
+          <h2 className="text-1xl sm:text-1xl font-bold text-center mb-1">
+          CIT Kokrajhar provides Master's programs in Computer Science & Engineering (CSE), Food Engineering & Technology (FET), Green Energy Technology (GET), and Water Resources, Hydraulic Engineering (WRH) and Multimedia Communication & Design (MCD).
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {mtechCourses.map((course, index) => (
@@ -158,9 +166,13 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="px-5 sm:px-10">
+        <div className="px-5 sm:px-2 mb-10 mt-5">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5">
             Diploma Programs
+          </h2>
+          <h2 className="text-1xl sm:text-1xl font-bold text-center mb-1">
+          CIT Kokrajhar provides Diploma Programs in Computer Science and Engineering (CSE), Electronics and Communication Engineering (ECE), Control and Instrumentation (CAI), Food Processing Technology (FPT), Civil Engineering (CE), Animation & Multimedia Technology (AMT).
+
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {diplomaCourses.map((course, index) => (
