@@ -2,40 +2,30 @@ import Image from "next/image";
 
 export default function CardOne() {
   return (
-    <div className="flex flex-col sm:flex-row sm:justify-center items-center relative">
-      <div className="h-[16.5rem] w-[16.5rem] bg-gray-300 sm:absolute right-72 md:right-32 rounded-2xl overflow-hidden">
-        <Image
-          src={"/dr-agile-methew.jpg"}
-          alt="director"
-          height={500}
-          width={500}
-          className="object-cover h-full"
-        />
-      </div>
-      <div className="sm:h-[19rem] bg-white sm:w-1/2 md:w-2/3 sm:pr-48 p-5 sm:rounded-2xl flex flex-col justify-between shadow-lg">
+    <div className="flex flex-col sm:flex-row sm:justify-center items-center relative p-5">
+      <div className="bg-white sm:w-1/2 md:w-2/3 p-5 sm:pl-12 sm:rounded-2xl flex flex-col justify-between shadow-lg">
         <div>
-          <h3 className="text-2xl font-semibold">Exploring the skies</h3>
-          <h5 className="text-slate-500">THE TRAINING AND PLACEMENT CELL</h5>
-          <hr className="w-2/3 border-primary" />
-
+          <h2 className="text-xl font-bold text-blue-800">Exploring the Skies</h2>
+          <h3 className="text-blue-600 mb-2">THE TRAINING AND PLACEMENT CELL</h3>
+          <hr className="w-2/3 border-primary mt-2" />
           <p className="mt-3">
-          Dear Esteemed Recruiters, Welcome to CIT Kokrajhar, your premier destination for top-tier talent in engineering and technology. Located in the prestigious Bodoland Terrotorial (BTR) of India, we have established a solid reputation in both Assam and the North eastern region (NER). Our accomplished alumni are living proof of our tradition of excellence, excelling across diverse domains from engineering to research and development.
-
-
-Since 2006, CIT Kokrajhar has been dedicated to producing diploma holders graduates and post graduates who possess not only strong theoretical knowledge but also practical skills. Our students’ unwavering commitment to innovation, problem solving, and adaptability sets them apart. As the training and placement officer, my team and I are committed to bridging the academia industry gap. We ensure our students are industry ready through rigorous training, workshops and internships, fostering holistic development.
-
-
-Our students excel not only academically but also in co-curricular and extracurricular activities, developing leadership teamwork and communication skills essential for a thriving career. Partnering with us connects you to some of the finest technical minds and contributes to shaping the future of engineering and technology landscape.
-
-
-Thank you for considering CIT Kokrajhar as your recruitment destination. We eagerly anticipate a mutually beneficial partnership, confident that our students will elevate your organization’s growth and success. For inquires or recruitment activities, please contact our Placement Cell.
-
-
-Welcome to CIT Kokrajhar, where talent meets opportunity!
-
+            Dear Esteemed Recruiters, Welcome to CIT Kokrajhar, your premier destination for top-tier talent in engineering and technology. Located in the prestigious Bodoland Territorial (BTR) of India, we have established a solid reputation in both Assam and the North Eastern Region (NER). Our accomplished alumni are living proof of our tradition of excellence, excelling across the globe.
           </p>
         </div>
-        <div className="">
+       
+        <button className="mt-4 px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300 text-sm">
+          Read More
+        </button>
+      </div>
+      
+      <div className="h-[16.5rem] w-[16.5rem] bg-gray-300 rounded-full overflow-hidden flex items-center justify-center mt-4 sm:mt-0 sm:ml-4 shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div className="relative w-full h-full">
+          <Image
+            src="/dr-agile-methew.jpg"
+            alt="Director"
+            layout="fill"
+            className="object-cover w-[180px] h-[180px] rounded-full hover:scale-105 transition-transform duration-300"
+          />
         </div>
       </div>
     </div>

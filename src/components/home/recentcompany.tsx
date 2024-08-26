@@ -9,19 +9,15 @@ const links = [
      href: "https://sih.gov.in/",
      title: "Smart India Hackathon-2024 is live now",
    },
-  // {
-  //   href: "https://www.microsoft.com/en-us/careers",
-  //   title:
-  //     "Microsoft Careers - Empower Every Person and Organization on the Planet to Achieve More",
-  // },
-  // {
-  //   href: "https://www.ibm.com/employment",
-  //   title:
-  //     "IBM Jobs - Build Your Career with a Global Leader in Technology and Innovation",
-  // },
+   {
+     href: "https://unstop.com/competitions/tata-imagination-challenge-2024-student-track-tata-imagination-challenge-2024-tata-group-1096490?ref=LawCentre",
+     title:
+       "Tata Imagination Challenge 2024",
+  },
+
 ];
 
-// Repeat links in order
+
 const repeatedLinks = Array.from({ length: 2 }, () => links).flat();
 
 const LinkCarousel: React.FC = () => {
