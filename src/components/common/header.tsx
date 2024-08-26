@@ -39,7 +39,7 @@ const tabs = [
     path: "#",
     dropdown: [
       {
-        name: "Placement Data 2023-24",
+        name: "Placement Records 2023-24",
         path: "/T&P data/T&P Data 23-24.pdf",
       
       },
