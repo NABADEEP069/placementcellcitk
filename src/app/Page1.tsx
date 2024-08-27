@@ -1,18 +1,11 @@
 
-import HeroComp from "@/components/common/herocomp";
-import AboutSection from "@/components/home/about";
-import CardOne from "@/components/home/cardone";
-import ImageCarousel from "@/components/home/recentcompany";
 import Link from "next/link";
-import Page1 from "./Page1";
 
-export default function Home() {
+export default function Page1() {
   return (
     <main >
-      <HeroComp />
-      <ImageCarousel />
-      <AboutSection />
-      <div className="bg-gradient-to-br from-blue-300 to-blue-300 py-5 space-y-5">
+            <div className="bg-gradient-to-br from-blue-300 to-blue-300 py-5 space-y-5">
+
   <div className="flex bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     <div className="w-1/2 flex items-center justify-center p-2">
       <img
@@ -38,7 +31,6 @@ export default function Home() {
       </Link>
     </div>
   </div>
-  <Page1/>
 </div>
 
     </main>

@@ -55,13 +55,13 @@ export default function HeroComp() {
         </div>
       </div>
       <div className="w-full h-12 absolute bottom-20 md:bottom-28 flex flex-row justify-center items-center gap-5 md:gap-10 text-sm font-bold">
-        <button
+        {/* <button
           className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300"
           onClick={() => setShowForm(!showForm)}
         >
           <FaUserPlus className="text-xl" />
           Recruitment
-        </button>
+        </button> */}
         <button className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300">
           <FaDownload />
           Brochure
