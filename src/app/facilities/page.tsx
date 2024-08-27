@@ -14,17 +14,8 @@ const facilities = [
     title: "Guest House for recruiters",
     imageUrl: "/Facility/guest-house photo- citk - Copy.jpg",
   },
-  {
-    title:
-      "Seminers",
-    imageUrl: "/Facility/F-4.jpeg",
-  },
-  {
-    title:
-      "Highly motivated and experienced staff to coordinate the whole process",
-    imageUrl: "/Facility/F-2.jpg",
-    
-  },
+
+  
 ];
 
 export default function Page() {

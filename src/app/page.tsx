@@ -1,5 +1,4 @@
 
-import VisionCard from "@/components/common/card";
 import HeroComp from "@/components/common/herocomp";
 import AboutSection from "@/components/home/about";
 import CardOne from "@/components/home/cardone";

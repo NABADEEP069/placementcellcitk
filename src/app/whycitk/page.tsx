@@ -5,12 +5,12 @@ import { useState } from "react";
 
 export default function Page() {
   const [activeComponent, setActiveComponent] = useState(
-    "The Academic Program"
+    " Academics"
   );
 
   const renderComponent = () => {
     switch (activeComponent) {
-      case "The Academic Program":
+      case " Academics":
         return <CardOne />;
       case "Admission Criteria":
         return ( <div>
@@ -196,12 +196,12 @@ export default function Page() {
       <div className="space-y-8 mt-8">
         <div className="flex justify-around">
           <button
-            onClick={() => setActiveComponent("The Academic Program")}
+            onClick={() => setActiveComponent(" Academics")}
             className={`px-4 py-2 rounded-lg ${
-              activeComponent === "The Academic Program" ? "bg-blue-600 text-white" : "bg-gray-200"
+              activeComponent === " Academics " ? "bg-blue-600 text-white" : "bg-gray-200"
             }`}
           >
-            The Academic Program
+             Academics
           </button>
           
           <button
