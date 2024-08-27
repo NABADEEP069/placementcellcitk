@@ -23,15 +23,9 @@ export default function Page() {
     <main className="min-h-screen bg-gray-100 flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
       <h1 className="text-4xl font-bold mb-8 text-center">Facilities</h1>
       <p className="max-w-2xl mb-8 text-center">
-        The campus of CIT Kokrajhar is situated at the heart of Kokrajhar city
-        providing fast connectivity to railway and airport. The nearest railway
-        station is Kokrajhar, which is at a distance of 10 km from the campus
-        and the nearest airport is Rupsi Airport, which is approx 75 km from the
-        campus.
+      CIT Kokrajhar provides excellent facilities for recruiters visiting the campus. The institute offers a comfortable guest house for accommodation, ensuring a pleasant stay. For presentations and pre-placement talks, spacious and well-equipped seminar halls are available. Additionally, air-conditioned rooms are provided for conducting interviews, ensuring a professional and comfortable environment for recruiters. These facilities, combined with the institute's supportive staff, create an efficient and welcoming experience for companies during their campus visits.
       </p>
-      <p className="max-w-2xl mb-8 text-center">
-        The facilities provided for the placement process includes:
-      </p>
+     
       <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {facilities.map((facility, index) => (
           <div

@@ -13,42 +13,7 @@ interface Module {
 }
 
 const modules: Module[] = [
-  {
-    name: "Diploma Programme",
-    courses: [
-      {
-        name: "Electronics and Communication Engineering (ECE)",
-        male: 30,
-        female: 20,
-        strength: 50,
-      },
-      {
-        name: "Computer Science and Engineering (CSE)",
-        male: 25,
-        female: 15,
-        strength: 40,
-      },
-      {
-        name: "Control and Instrumentation (CAI)",
-        male: 20,
-        female: 20,
-        strength: 40,
-      },
-      {
-        name: "Food Processing Technology (FPT)",
-        male: 22,
-        female: 18,
-        strength: 40,
-      },
-      { name: "Civil Engineering (CE)", male: 30, female: 10, strength: 40 },
-      {
-        name: "Animation & Multimedia Technology (AMT)",
-        male: 20,
-        female: 20,
-        strength: 40,
-      },
-    ],
-  },
+ 
   {
     name: "Undergraduate Programme",
     courses: [
@@ -85,33 +50,69 @@ const modules: Module[] = [
       },
     ],
   },
+   {
+    name: "Diploma Programme",
+    courses: [
+      {
+        name: "Electronics and Communication Engineering (ECE)",
+        male: 16,
+        female: 2,
+        strength: 18,
+      },
+      {
+        name: "Computer Science and Engineering (CSE)",
+        male: 24,
+        female: 8,
+        strength: 32,
+      },
+      {
+        name: "Control and Instrumentation (CAI)",
+        male: 9,
+        female: 4,
+        strength: 13,
+      },
+      {
+        name: "Food Processing Technology (FPT)",
+        male: 2,
+        female: 3,
+        strength: 5,
+      },
+      { name: "Civil Engineering (CE)", male: 25, female: 8, strength: 33 },
+      {
+        name: "Animation & Multimedia Technology (AMT)",
+        male: 1,
+        female: 2,
+        strength: 3,
+      },
+    ],
+  },
   {
     name: "Masters Programme",
     courses: [
       {
-        name: "Computer Science and Engineering", strength: 30,
+        name: "Computer Science and Engineering", strength: 2,
+        male: 2,
+        female: 0
+      },
+      {
+        name: "Food Engineering and Technology (FET)", strength: 4,
+        male: 1,
+        female: 3,
+      },
+      {
+        name: "Green Energy Technology (GET)", strength: 1,
+        male: 0,
+        female: 1,
+      },
+      {
+        name: "Water Resources and Hydraulic Engineering (WRH)", strength: 4,
         male: 0,
         female: 0
       },
       {
-        name: "Food Engineering and Technology (FET)", strength: 20,
-        male: 0,
-        female: 0
-      },
-      {
-        name: "Green Energy Technology (GET)", strength: 60,
-        male: 0,
-        female: 0
-      },
-      {
-        name: "Water Resources and Hydraulic Engineering (WRH)", strength: 60,
-        male: 0,
-        female: 0
-      },
-      {
-        name: "Master of Design (M. Des)", strength: 60,
-        male: 0,
-        female: 0
+        name: "Master of Design (M. Des)", strength: 8,
+        male: 6,
+        female: 2,
       }
     ],
   },
@@ -120,7 +121,7 @@ const modules: Module[] = [
 const CourseStrengthPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">Student  Strength ( Final Year )</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Student  Strength ( Final Year 2024-25 )</h1>
       <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
         {modules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="mb-8">

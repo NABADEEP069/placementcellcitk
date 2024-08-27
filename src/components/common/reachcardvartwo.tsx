@@ -36,16 +36,9 @@ export default function ReachCardVarTwo({
             India.
           </p>
           <ul className="list-disc px-10 py-1">
+           
             <li>
-              Rupsi Airport is the nearest airport to CIT Kokrajhar, located at
-              a distance of approximately 75 kilometers from the campus. With
-              its proximity to the institution, Rupsi Airport offers a
-              convenient and efficient way to access the campus. Travelers can
-              take advantage of the airport&apos;s facilities and services to
-              reach their destination comfortably.
-            </li>
-            <li>
-              Another viable option for reaching CIT Kokrajhar by air is through
+              The viable option for reaching CIT Kokrajhar by air is through
               Guwahati Airport (GAU). Upon arrival at Guwahati Airport,
               travelers can continue their journey to CIT Kokrajhar through
               various transportation modes, such as buses, trains, or private

@@ -83,7 +83,7 @@ export default function Page() {
                 />
                 <div className="flex justify-center mt-7 mb-14">
                   <a
-                    href="/whycitk/CITK-CLUBS-INFO.pdf"
+                    href="whycitk/Clubs Serega-new.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                      className="px-3 py-1 rounded-lg text-sm bg-blue-400 text-white text-center shadow-lg hover:bg-blue-700 transition"
