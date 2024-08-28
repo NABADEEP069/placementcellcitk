@@ -66,8 +66,8 @@ const clubLinks = [
     link: "https://cit.ac.in",
   },
   {
-    name: "VLSI",
-    link: "https://cit.ac.in",
+    name: "VLSI Club",
+    link: "https://sites.google.com/cit.ac.in/vlsiclubcitk/home?authuser=0",
   },
 ];
 

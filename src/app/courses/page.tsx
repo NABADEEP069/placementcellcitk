@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 
-// Define the types for the props
 interface ClubCardProps {
   name: string;
   subjects: string[];
@@ -23,7 +22,7 @@ function ClubCard({ name, subjects }: ClubCardProps) {
           <ul className="mt-3">
             {subjects.map((subject, index) => (
               <li key={index} className="text-gray-900">
-                - {subject}
+                * {subject}
               </li>
             ))}
           </ul>
@@ -44,11 +43,11 @@ function ClubCard({ name, subjects }: ClubCardProps) {
 const btechCourses = [
   {
     name: "B.tech in Computer Science and Engineering",
-    subjects: ["AI", "Machine Learning", "Block chain", "Data structure and algorithm","Database management system","Computer architecture","Automata theory"],
+    subjects: ["Data structure and algorithm", "Database management system","AI", "Machine Learning", "Block chain", "Computer architecture","Automata theory"],
   },
   {
     name: "B.tech in Electronics and Communication Engineering",
-    subjects: ["VLSI Design", "Power Electronics", "Signal and Systems", "Control Systems"],
+    subjects: [" In VLSI & Embadedd System: Digital System Design, VLSI Design, Linear IC, Analog IC Design Microcontrollers.", "In Communication Systems : Analog Communication, Digital CCommunication, Computer Networks, Antennas & Wave Propagation and Information theory and Coding.", " In Signal Processing : Signal and Systems, Digital Signal Processing", ],
   },
   {
     name: "B.tech in Civil Engineering ",
