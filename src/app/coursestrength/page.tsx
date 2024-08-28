@@ -105,9 +105,9 @@ const modules: Module[] = [
         female: 1,
       },
       {
-        name: "Water Resources and Hydraulic Engineering (WRH)", strength: 4,
-        male: 0,
-        female: 0
+        name: "Water Resources and Hydraulic Engineering (WRH)", strength: 13,
+        male: 10,
+        female: 3
       },
       {
         name: "Master of Design (M. Des)", strength: 8,
