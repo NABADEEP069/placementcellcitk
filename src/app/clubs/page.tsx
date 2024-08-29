@@ -5,7 +5,7 @@ export default function Page() {
   const clubs = [
     {
       name: "Robotics Club",
-      //   imageUrl: "/images/robotics-club-logo.png",
+   
       imageUrl: "/cit-logo.png",
     },
     {
@@ -40,7 +40,7 @@ export default function Page() {
       name: "Konstruct Club",
       imageUrl: "/cit-logo.png",
     },
-    // Add more clubs as needed
+    
   ];
 
   return (

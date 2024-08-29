@@ -194,7 +194,9 @@ export default function Page() {
         </p>
       </div>
       <div className="space-y-8 mt-8">
-        <div className="flex justify-around">
+        <div >
+
+        <div className="flex flex-wrap gap-4 justify-center mt-4">
           <button
             onClick={() => setActiveComponent(" Academics")}
             className={`px-4 py-2 rounded-lg ${
@@ -224,8 +226,8 @@ export default function Page() {
           >
             Faculty
           </button>
-
-
+</div>
+          <div className="flex flex-wrap gap-4 justify-center mt-4">
 
 
 
@@ -259,8 +261,8 @@ export default function Page() {
             Industrial Training
           </button>
 
-
-
+</div>
+<div className="flex flex-wrap gap-4 justify-center mt-4">
           <button
             onClick={() => setActiveComponent("Infrastructure")}
             className={`px-4 py-2 rounded-lg ${
@@ -270,9 +272,6 @@ export default function Page() {
             Infrastructure
           </button>
 
-
-
-
          <button
             onClick={() => setActiveComponent("Library")}
             className={`px-4 py-2 rounded-lg ${
@@ -280,12 +279,7 @@ export default function Page() {
             }`}
           >
             Library
-          </button>
-
-
-
-
-
+          </button></div>
 
         </div>
         <div>{renderComponent()}</div>

@@ -22,15 +22,16 @@ const academicprogramdata = [
   
 ];
 
+
 export default function CardOne() {
   return (
-    <div className="bg-gray-100 p-5 rounded-lg shadow">
+    <div className="bg-gray-100 p-5 rounded-lg shadow md:p-8 lg:p-10">
       {academicprogramdata.map((data, index) => (
-        <div key={index}>
-          <h3 className="font-semibold mb-2 uppercase text-xl text-primary">
+        <div key={index} className="mb-6">
+          <h3 className="font-semibold mb-2 uppercase text-lg md:text-xl lg:text-2xl text-primary">
             {data.title}
           </h3>
-          <p className="bg-white p-3 rounded-lg shadow mb-4 pl-5 space-y-2">
+          <p className="bg-white p-3 rounded-lg shadow mb-4 pl-4 md:pl-6 lg:pl-8 space-y-2 text-sm md:text-base lg:text-lg">
             {data.info}
           </p>
         </div>
@@ -38,3 +39,6 @@ export default function CardOne() {
     </div>
   );
 }
+
+
+
