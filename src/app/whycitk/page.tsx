@@ -10,7 +10,7 @@ export default function Page() {
 
   const renderComponent = () => {
     switch (activeComponent) {
-      case " Academics":
+      case "Academics":
         return <CardOne />;
       case "Admission Criteria":
         return ( <div>
@@ -198,9 +198,9 @@ export default function Page() {
 
         <div className="flex flex-wrap gap-4 justify-center mt-4">
           <button
-            onClick={() => setActiveComponent(" Academics")}
+            onClick={() => setActiveComponent("Academics")}
             className={`px-4 py-2 rounded-lg ${
-              activeComponent === " Academics " ? "bg-blue-600 text-white" : "bg-gray-200"
+              activeComponent === "Academics" ? "bg-blue-600 text-white" : "bg-gray-200"
             }`}
           >
              Academics
