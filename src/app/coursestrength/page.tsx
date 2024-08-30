@@ -121,7 +121,7 @@ const modules: Module[] = [
 const CourseStrengthPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">Student  Strength ( Final Year 2024-25 )</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Student Strength Of Final Year,2024-25 </h1>
       <div className="w-full max-w-4xl bg-white shadow-md rounded-lg p-6">
         {modules.map((module, moduleIndex) => (
           <div key={moduleIndex} className="mb-8">

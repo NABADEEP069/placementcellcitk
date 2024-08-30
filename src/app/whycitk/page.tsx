@@ -271,7 +271,6 @@ export default function Page() {
           >
             Infrastructure
           </button>
-
          <button
             onClick={() => setActiveComponent("Library")}
             className={`px-4 py-2 rounded-lg ${
