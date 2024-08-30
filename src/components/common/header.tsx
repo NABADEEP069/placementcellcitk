@@ -131,14 +131,14 @@ export default function Header() {
                 {tab.dropdown && <FaAngleDown className="text-xl" />}
               </Link>
               {tab.dropdown && hoveredTab === index && (
-                <div className="w-48 absolute top-8 bg-slate-100 text-slate-700 text-sm font-semibold rounded-md overflow-hidden shadow-xl p-1">
+                <div className="w-48 absolute top-8 bg-slate-100 text-slate-700 text-sm font-semibold rounded-md overflow-hidden shadow-xl p-1 z-50">
                   {tab.dropdown.map((dropdownItem, dropdownIndex) => (
                     <Link
                       href={dropdownItem.path}
                       key={dropdownIndex}
                       onClick={() => setMenuOpen(false)}
                     >
-                      <span className="block px-1 py-1 hover:bg-slate-300 rounded-md hover:font-bold duration-300">
+                      <span className="block px-1 py-1 hover:bg-slate-300 rounded-md hover:font-bold duration-300 z-50">
                         {dropdownItem.name}
                       </span>
                     </Link>
