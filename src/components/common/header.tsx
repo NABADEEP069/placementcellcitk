@@ -40,16 +40,16 @@ const tabs = [
     dropdown: [
       {
         name: "Placement Records 2023-24",
-        path: "/T&P data/T&P Data 23-24.pdf",
+        path: "/T&P data/PlacementData_2023-24.pdf",
       
       },
       {
         name: "Placement Records 2022-23",
-        path: "/T&P data/T&P Data 22-23.pdf",
+        path: "/T&P data/PlacementData_2022-23.pdf",
       },
       {
         name: "Placement Records 2021-22",
-        path: "/T&P data/T&P Data 21-22.pdf",
+        path: "/T&P data/PlacementData_2021-22.pdf",
       },
       {
         name: "Our Alumni",
